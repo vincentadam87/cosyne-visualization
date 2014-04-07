@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Smoother highlight transitions</title>
+		<script type="text/javascript" src="../d3/d3.v3.js"></script>
+		<script type="text/javascript" src="../json.js"></script>
+		<style type="text/css">
+			/* No style rules here yet */	
+		</style>
+	</head>
+	<body>
+		<p><button id="2014">2014</button>
+			<button id="2013">2013</button>
+			<button id="2012">2012</button>
+			<button id="2011">2011</button>
+			</p>
+
+
+		<script type="text/javascript">
+
+			//Width and height
+			var w = 600;
+			var h = 1000;
+			
+
+			var n_crop = 30;
+
+
+var authors_2011 =['Liam Paninski', 'Paul Schrater', 'Krishna V. Shenoy', 'Brent Doiron', 'Maneesh Sahani', 'Wulfram Gerstner', 'Eero P. Simoncelli', 'Jonathan W Pillow', 'Jason Prentice', 'Mikko Juusola', 'Vijay Balasubramanian', 'Constantin A Rothkopf', 'Chris Eliasmith', 'Mate Lengyel', "Kre\\v{s}imir Josi\\'{c}", 'Eric Shea-Brown', 'Matthew Kaufman', 'Davide Zoccolan', 'Garrett Kenyon', 'Alexandre Pouget', 'Peter Latham', 'Jose Carmena', 'Jochen Triesch', 'Kenneth D. Miller', 'Stephen I. Ryu', 'Noah Cowan', 'Mark Churchland', 'Eric Fortune', 'Wei Ji Ma', 'Ashok Litwin-Kumar', 'Tomoki Fukai', 'Adam Kohn', 'Daniel Coca', 'Emery N. Brown', 'Yashar Ahmadian', 'Jonathan Victor', 'Gasper Tkacik', 'Miriam Meister', 'Byron M. Yu', 'Jozsef Fiser', 'Alexander Huk', 'Gil Costa', 'Matthew Rushworth', 'Mark Goldman', 'Kolia Sadeghi', 'Luis Bettencourt', 'Bartlett Mel', 'John P. Cunningham', 'Martin Giese', 'Keith Mathieson', 'Christopher Moore', 'Ross S. Williamson', 'Deborah Gunning', 'Sarah Woolley', 'Terrence Sejnowski', 'Satohiro Tajima', 'Daniel A. Butts', 'Andrea Barreiro', 'Alan Litke', 'John Cunningham', 'Shaul Druckmann', 'Henning Sprekeler', 'Carlos D Brody', 'Andreas S. Tolias', 'Jorg Lucke', 'Gianluca Baldassarre', 'Maria Vicente', 'Alexander Sher', 'Tomaso Poggio', 'Yoshikazu Isomura', 'Jakob Macke', 'Ila Fiete', 'Elad Schneidman', 'Ronen Segev', 'Roger Hardie', 'Karunesh Ganguly', 'Bruno Olshausen', 'Ziv Williams', 'Wilson Geisler', 'Konstantinos Meletis', 'Demian Battaglia', 'Jeffrey Beck', 'Claudia Clopath', 'Mark Laubach', 'Edward Callaway', 'Angela Yu', 'Israel Nelken', 'Ronald van den Berg', 'Anthony Zador', 'Greg Field', 'Stephen Lisberger', 'Stefano Fusi', 'Masato Okada', 'Richard Turner', 'George Ryan', 'S.A. Billings', 'Thomas Trappenberg', 'Bingni W Brunton', 'Jonathon Shlens', 'Alireza Alemi-Neissi'];
+var counts_2011 =[9, 8, 6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
+
+
+var authors_2014 = ['Wulfram Gerstner', 'Jonathan Pillow', 'Tatyana Sharpee', 'Maneesh Sahani', 'Dietmar Plenz', 'Eric Shea-Brown', 'Michael Berry', 'Marius Pachitariu', 'Sophie Deneve', 'Dmitri Chklovskii', 'L.F. Abbott', 'Wei Ji Ma', 'Kresimir Josic', 'Gasper Tkacik', 'Mate Lengyel', 'Guillaume Hennequin', 'Xaq Pitkow', 'Stephanie Palmer', 'Leigh Hochberg', 'Andreas Klaus', 'Jascha Sohl-Dickstein', 'Krishna Shenoy', 'Ranulfo Romo', 'Upinder Bhalla', 'Olivier Marre', 'Matthias Bethge', 'Alexandre Pouget', 'Tatjana Tchumatchenko', 'Matt Smith', 'Garrett Stanley', 'Surya Ganguli', 'Aldo Faisal', 'Michael Wehr', 'Ha Hong', 'Xiao-Jing Wang', 'Stefan Mihalas', 'Brent Doiron', 'Liam Paninski', 'Timothy Behrens', 'James DiCarlo', 'Tao Hu', 'Daniel Yamins', 'Michael Frank', 'Alexander Ecker', 'Mathew Diamond', 'Christian Machens', 'Joel Zylberberg', 'Fred Rieke', 'Kaushik Lakshminarasimhan', 'Lars Buesing', 'Ivana Orsolic', 'Adam Snyder', 'Emmanouil Froudarakis', 'Darren Seibert', 'Georg Keller', 'Robbe Goris', 'Daniel Lee', 'Markus Meister', 'Adam Kepecs', 'Andreas S. Tolias', 'Dimitri Yatsenko', 'Daniel Millard', 'Marlene Cohen', 'J. Nathan Kutz', 'Jakob Macke', 'Paul Schrater', 'Joshua Sanders', 'Rachel Wilson', 'Zachary Kilpatrick', 'Laurence Aitchison', 'Evan Archer', 'Zhuo Wang', 'Kenneth Latimer', 'Tilo Schwalger', 'Dinu Albeanu', 'Vijay Balasubramanian', 'Nicholas Cain', 'R. James Cotton', 'Peter Latham', 'David Barrett', 'Joshua Dudman', 'Julie Elie', 'Richard Naud', 'Ramakrishnan Iyer', 'Dezhe Jin', 'Haim Sompolinsky', 'Venkatesh Murthy', 'Urs Koester', 'Adrienne Fairhall', 'Taro Toyoizumi', 'Carina Curto', 'Bijan Pesaran', 'Claudia Feierstein', 'Merav Stern', 'Megan Peters', 'Fred Wolf', 'Benjamin Poole', 'Eero Simoncelli', 'Sarah Marzen', 'Sonja Hofer'];
+ var counts_2014 = [6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
+
+			
+			var authors_2012 = ['Eero Simoncelli', 'Krishna Shenoy', 'Paul Schrater', 'Alexandre Pouget', 'Haim Sompolinsky', 'Dmitri Chklovskii', 'Stephen Ryu', 'Larry Abbott', 'Elad Schneidman', 'Ila Fiete', 'Tatyana Sharpee', 'Mark Goldman', 'Jeffrey Beck', 'Ronen Segev', 'Tony Movshon', 'Carina Curto', 'Matteo Carandini', 'Aldo Faisal', 'Jonathan Pillow', 'Wei Ji Ma', 'Ronald  Van Den Berg', 'Vladimir Itskov', 'Liam Paninski', 'Nathaniel Daw', 'John Reynolds', 'Peter  Dayan', 'Zachary Mainen', 'Wulfram Gerstner', 'Tim P. Vogels', 'Bartlett Mel', 'Andreas V.M. Herz', 'Fritz Sommer', 'Michael Berry', 'Marc Timme', 'Peggy Series', 'Kayvon Daie', 'Emre Aksay', 'Anthony Zador', 'Tirin Moore', 'Xiao-Jing Wang', 'Anirvan Nandy', 'Gasper Tkacik', 'Maneesh Sahani', 'Mate Lengyel', 'Robert Froemke', 'Jude Mitchell', 'Christopher Moore', 'DJ Strouse', 'Maria Geffen', 'Mark Churchland', 'Karel Svoboda', 'Brent Doiron', 'Ziv Rotman', 'Chris Rozell', 'Michael Platt', 'Julijana Gjorgjieva', 'A. Moses Lee', 'Jan Drugowitsch', 'Il Memming Park', 'Timothy Gentner', 'Ruben Moreno', 'Eric Shea-Brown', 'Qi Wang', 'Andreas Tolias', 'Jeremy Freeman', 'Andre Mendonca', 'Henning Sprekeler', 'Christian Tetzlaff', 'Sydney Cash', 'Maria Vicente', 'Alex Kwan', 'Michael Buice', 'Mikko Juusola', 'Caleb Kemere', 'Nicholas Hatsopoulos', 'Dora Angelaki', 'Tao Hu', 'Stefano Fusi', 'Vitaly Klyachko', 'Jianzhong  Jin', "Randall O'Reilly", 'Peter Latham', 'Jose Carmena', 'Francis Willett', 'Bruno Olshausen', 'Misha Tsodyks', 'Christoph Kirst', 'Wilson Geisler', 'Garrett Stanley', 'Paul Nuyujukian', 'Edward Callaway', "Daniel O'Connor", 'Dinu Albeanu', 'Taro Toyoizumi', 'Yushi  Wang', 'Isaac Carruthers', 'Tyler Lee', 'Emery Brown', 'Michael DeWeese', 'Seth Madlon-Kay'];
+
+var counts_2012 =[7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
+
+
+			var authors_2013 = ['Larry Abbott', 'Jonathan Pillow', 'Liam Paninski', 'Surya Ganguli', 'Mate Lengyel', 'Micah Richert', 'Eugene Izhikevich', 'Matthew Kaufman', 'Krishna Shenoy', 'Vijay  Balasubramanian', 'Tatyana Sharpee', 'Eftychios Pnevmatikakis', 'Botond Szatmary', 'Il Park', 'Paul Schrater', 'Dora Angelaki', 'Sophie Deneve', 'Alexandre Pouget', 'Peter Latham', 'Mark Churchland', 'Fred Wolf', 'Wei Ji Ma', 'Randy Bruno', 'Kresimir Josic', 'Jayram Moorkanikara Nageswaran', 'Matthias Bethge', 'Michael Frank', 'Dmitri Chklovskii', 'Nicolas Brunel', 'Filip Piekniewski', 'Peter Dayan', 'Stephen Ryu', 'Qi Wang', 'Stefano Fusi', 'Andreas Tolias', 'Eric Shea-Brown', 'Adam Kepecs', 'Gabriel Kreiman', 'Jeffrey Beck', 'Ronald Van den Berg', 'Jason Prentice', 'Tomaso Poggio', 'Ian Stevenson', 'Ila Fiete', 'Bruno Olshausen', 'Philip N. Sabes', 'Ryan Adams', 'Walter Senn', 'John Reynolds', 'Jack Gallant', 'Urs Koster', 'Aldo Faisal', 'Richard Zemel', 'Xiao-Jing Wang', 'Garrett Stanley', 'Christopher Hillar', 'Sach Sokol', 'Alan Stocker', 'Timothy Gardner', 'Csaba Petre', 'Pietro Berkes', 'Jozsef Fiser', 'Wulfram Gerstner', 'Christian Machens', 'Lars Buesing', 'Yoonseob Lim', 'Nicholas Priebe', 'William Stan Anderson', 'Michael Schnabel', 'Xaq Pitkow', 'Ralf Haefner', 'Emmanouil Froudarakis', 'Itzhak  Fried', 'Klaus Obermayer', 'Michael J. Berry II', 'Skander Mensi', 'Maneesh Sahani', 'Peter  Saggau', 'Anthony Movshon', 'Klaus Richard Pawelzik', 'Kristofer Bouchard', 'Carina Curto', 'Wolfgang Keil', 'Vahid Esmaeili', 'Eve Marder', 'RIchard Hahnloser', 'Ethan Meyers', 'Anne Churchland', 'Arash Fassihi ', 'Thomas M. Jessell', 'Dustin Stansbury', 'Jean-Pascal Pfister', 'Gregory Horwitz', 'Jakob Macke', 'Christian Pozzorini', 'R. James Cotton', 'Nisheeth Srivastava', 'Zachary  F. Mainen', 'Pulin Gong', 'Henning Sprekeler', 'Justin Gardner', 'Siegrid L?wel', 'Carl Smith', 'Lawrence Cormack', 'Ziv Williams', 'Bence Olveczky', 'David Barrett', 'Wilson Geisler', 'Daniel Robles-Llana', 'John Palmer', 'Mark van Rossum', 'Anthony Zador', 'Constantin Rothkopf', 'Greg DeAngelis', 'David Raposo', 'Mel Win Khaw', 'Evan Archer', 'Matthias Kaschube', 'Ken Miller', 'Eero Simoncelli', 'Leonard E. White', 'Ingmar Kanitscheider', 'Tilman Kispersky', 'He Zheng', 'Timothy Machado', 'David Schwab', 'Robert Urbanczik', 'Michael Graupner', 'Uri Eden', 'Lucas Theis', 'Douglas Ollerenshaw', 'Daniel Butts', 'Philip Meier', 'Vladimir Itskov', 'Charles Gray', 'John Cunningham', 'Dmitry Rinberg', 'Tim Vogels', 'David M. Coppola', 'Adam Kohn', 'Thomas Clandinin', 'Michael Platt', 'Nicholas Steinmetz', 'Stephen Baccus', 'Athena Akrami', 'Xuexin Wei', 'Balazs Hangya', 'Thomas Preuss', 'Joseph Madsen', 'Michael  Monteforte', 'Jonathan Victor', 'Nicole Rust', 'Philipp Berens', 'Z. Josh Huang', 'Alberto Bernacchia', 'James Trousdale', 'James DiCarlo', 'Tao Hu', 'Gregory Wayne', 'Kwabena Boahen', 'Boris Gutkin', 'James Cavanagh', 'Cristina Savin', 'Haim Sompolinsky', 'Mathew Diamond', 'Damon Clark', 'Sydney Cash', 'Rony Paz', 'Joel Leibo', 'Balazs Ujfalussy', 'Alexander Huk', 'Alexandra Smolyanskaya', 'Gil Costa', 'Rong Guo', 'Yotam Luz', 'Dan Arnstein', 'Helen Shen', 'Sam Burns', 'Emilio Salinas', 'Guillaume Hennequin', 'Felipe Gerhard', 'Geoffrey Adams', 'Seyed-Mahdi Khaligh-Razavi', 'Eldon Emberly', 'Tom Test', 'Minjoon Kouh', 'Fred Rieke', 'Mikio Aoi', 'Christopher Moore', 'Neil Rabinowitz', 'Yushi Wang', 'Johnatan Aljadeff', 'Gasper Tkacik', 'Ali Cetin', 'Henry Abarbanel', 'Florian Engert', 'Nora Youngs', 'DJ Strouse', 'Robert Morton', 'Valentin Dragoi', 'Sean Escola', 'Wei Wei', 'Venkatakrishnan Ramaswamy', 'Fleur Zeldenrust', 'Ming Hu', 'Philipp Schnepel', 'Komal Kapoor', 'Stephen Engel', 'John Maunsell', 'Geoffrey Goodhill', 'Oren Shriki', 'Michiel Remme', 'Manuel Schottdorf', 'Michael Hawken', 'Joel Kaardal', 'Julio Chapeton', 'Arman Abrahamyan', 'Matjaz Jogan', 'KiJung Yoon', 'Brent Doiron', 'Sunita Mandon', 'Rafi Haddad', 'Dietmar Plenz', 'Shreejoy Tripathy', 'Logan Grosenick', 'Kazuyuki Aihara', 'Johanni Brea', 'Jeremy Seamans', 'Nathan Crone', 'Shan Shen', 'Shinsuke Shimojo', 'Robbe Goris', 'Ekaterina Abramova', 'Tomislav Milekovic', 'Victor de Lafuente', 'John Briguglio', 'Jorg Bornschein', 'Thomas Akam', 'Marius Buibas', 'Andrew Mitz', 'Anthony Norcia', 'Joel Zylberberg', 'Ashwin Ramayya'];
+
+var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+
+			var authors = authors_2012;
+			var counts = counts_2012;
+
+		authors = authors.slice(0,n_crop);
+		counts = counts.slice(0,n_crop);
+
+
+			var yScale = d3.scale.ordinal()
+							.domain(d3.range(counts.length))
+							.rangeRoundBands([0, h], 0.05);
+
+			var xScale = d3.scale.linear()
+							.domain([0, d3.max(counts)])
+							.range([0, w]);
+
+
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+;
+
+			//Create bars
+
+			var rgb_scale = 30;
+			svg.selectAll("rect")
+			   .data(counts)
+			   .enter()
+			   .append("rect")
+			   .attr("class", "bar")
+			   .attr("y", function(d, i) {
+			   		return yScale(i);
+			   })
+			   .attr("x", function(d) {
+			   		return 0;
+			   })
+			   .attr("height", yScale.rangeBand())
+			   .attr("width", function(d) {
+			   		return xScale(d);
+			   })
+			   .attr("fill", function(d) {
+					return "rgb(0, 0, " + (d * rgb_scale) + ")";
+			   })
+			   .on("mouseover", function() {
+			   		d3.select(this)
+			   			.attr("fill", "orange");
+			   })
+			   .on("mouseout", function(d) {
+				   d3.select(this)
+				   		.transition()
+				   		.duration(250)
+						.attr("fill", "rgb(0, 0, " + (d * rgb_scale) + ")");
+			   });
+
+			//Create labels
+			svg.selectAll("text.counts")
+			   .data(counts)
+			   .enter()
+			   .append("text")
+			   			   .attr("class","counts")
+
+			   .text(function(d) {
+			   		return d;
+			   })
+			   .attr("text-anchor", "middle")
+			   .attr("y", function(d, i) {
+			   		return yScale(i) + yScale.rangeBand() / 2;
+			   })
+			   .attr("x", function(d) {
+			   		return xScale(d) - 14;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "11px")
+			   .attr("fill", "white");
+
+			svg.selectAll("text.authors")
+			   .data(authors)
+			   .enter()
+			   .append("text")
+			   .attr("class","authors")
+			   .text(function(d) {
+			   		return d;
+			   })
+			   .attr("y", function(d, i) {
+			   		return yScale(i) + yScale.rangeBand() / 2;
+			   })
+			   .attr("x", function(d) {
+			   		return 20;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "12px")
+			   .attr("fill", "white");
+
+			
+
+			d3.selectAll("button")
+				.on("click", function() {
+
+					year = this.getAttribute("id")
+					if (year == 2011){
+					 var nauthors = authors_2011;
+					 var ncounts = counts_2011;
+					};
+					if (year == 2012){
+					 var nauthors = authors_2012;
+					 var ncounts = counts_2012;
+					};
+					if (year == 2013){
+					 var nauthors = authors_2013;
+					 var ncounts = counts_2013;
+					};					
+					if (year == 2014){
+					 var nauthors = authors_2014;
+					 var ncounts = counts_2014;
+					};
+					
+					
+
+
+		nauthors = nauthors.slice(0,n_crop);
+		ncounts = ncounts.slice(0,n_crop);
+
+
+			var yScale = d3.scale.ordinal()
+							.domain(d3.range(ncounts.length))
+							.rangeRoundBands([0, h], 0.05);
+
+			var xScale = d3.scale.linear()
+							.domain([0, d3.max(ncounts)])
+							.range([0, w]);
+
+
+			//Create bars
+
+			svg.selectAll("rect")
+			   .data(ncounts)
+			   .transition()  
+			   .attr("y", function(d, i) {
+			   		return yScale(i);
+			   })
+			   .attr("x", function(d) {
+			   		return 0;
+			   })
+			   .attr("height", yScale.rangeBand())
+			   .attr("width", function(d) {
+			   		return xScale(d);
+			   })
+			   .attr("fill", function(d) {
+					return "rgb(0, 0, " + (d * rgb_scale) + ")"});
+
+			//Create labels
+			svg.selectAll("text.counts")
+			   .data(ncounts)
+  			   .transition()  
+			   .text(function(d) {
+			   		return d;
+			   })
+			   .attr("y", function(d, i) {
+			   		return yScale(i) + yScale.rangeBand() / 2;
+			   })
+			   .attr("x", function(d) {
+			   		return xScale(d) - 14;
+			   }) ;
+
+			svg.selectAll("text.authors")
+			   .data(nauthors)
+  			   .transition()  
+			   .text(function(d) {
+			   		return d;
+			   })
+			   .attr("y", function(d, i) {
+			   		return yScale(i) + yScale.rangeBand() / 2;
+			   })
+			   .attr("x", function(d) {
+			   		return 20;
+			   });
+
+		});
+
+
+		</script>
+	</body>
+</html>

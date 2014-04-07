@@ -1,0 +1,334 @@
+Paper ID|Type|Authors|Title
+25|0 - Talk|Christine Constantinople, Randy Bruno|Thalamic drive of deep cortical layers
+39|0 - Talk|Mel Win Khaw, Nathaniel Daw|Evidence for Decision by Sampling in Reinforcement Learning
+46|0 - Talk|RIchard Hahnloser, Nicolas  Giret, J?rgen Kornfeld, Surya Ganguli|Evidence for a causal inverse model in an avian song learning circuit 
+47|0 - Talk|Jan Drugowitsch, Valentin Wyart, Etienne Koechlin|Inference rather than selection noise explains behavioral variability in perceptual decision-making
+64|0 - Talk|Limor Freifeld, Damon Clark, Helen Yang, Mark Horowitz, Thomas Clandinin|Lateral Interactions Tune the Early Stages of Visual Processing in Drosophila
+114|0 - Talk|Balazs Ujfalussy, Mate Lengyel|Feed-forward inhibition in hippocampal microcircuits: adaptation to spike-based computation
+116|0 - Talk|Cheng-Hang Liu|Conditioned interval timing in V1 by optogenetically hijacking basal forebrain inputs
+118|0 - Talk|Mathieu Schiess, Robert Urbanczik, Walter Senn|Triple-spike-dependent synaptic plasticity in active dendrites implements error-backpropagation
+121|0 - Talk|Dmitry Rinberg, Admir Resulaj, Jingji Zhang, Thomas Bozza|Multiple perceptible signals from a  single olfactory glomerulus
+156|0 - Talk|Nestor  Parga, Federico  Carnevale, Victor de Lafuente, Ranulfo Romo|On the role of neural correlations in decision-making tasks
+159|0 - Talk|Ralph Bourdoukan, David Barrett, Christian Machens, Sophie Deneve|Spiking Networks Learning to Balance Excitation and Inhibition Develop an Optimal Representation.
+164|0 - Talk|Arnulf Graf, Richard Andersen|Learning to infer eye movement plans from populations of intraparietal neurons
+168|0 - Talk|Kenway Louie, Mel Win Khaw, Paul Glimcher|Neural variability and normalization drive biphasic context-dependence in decision-making
+180|0 - Talk|Daniel Acuna, Max Berniker, Hugo Fernandes, Konrad Kording|An investigation of how prior beliefs influence decision-making under uncertainty in a 2AFC task
+203|0 - Talk|Matjaz Jogan, Alan Stocker|Visual speed information is optimally combined across different spatiotemporal frequency channels
+212|0 - Talk|Charles Cadieu, Elias Issa, James DiCarlo|A neural encoding model of area PL, the earliest face selective region in monkey IT
+215|0 - Talk|Ari Rosenberg, Dora Angelaki|Neural correlates of visual orientation constancy
+225|0 - Talk|Mark Histed, John Maunsell|The cortical network can sum inputs linearly to guide behavioral decisions
+230|0 - Talk|Eftychios Pnevmatikakis, Timothy Machado, Logan Grosenick, Ben Poole, Joshua Vogelstein, Liam Paninski|Rank-penalized nonnegative spatiotemporal deconvolution and demixing of calcium imaging data
+240|0 - Talk|Emilio Salinas, Gabriela Costello, Dantong Zhu, Terrence Stanford|Saccadic Choices without Attentional Selection during an Urgent-Decision Task
+260|0 - Talk|Stephanie Jones, Christopher Moore|A proposed role for non-lemniscal thalamus in cortical beta rhythms: from mechanism to meaning 
+267|0 - Talk|Ruben Coen-Cagli, Odelia Schwartz|The impact on mid-level vision of statistically optimal V1 surround normalization
+270|0 - Talk|Ashok Litwin-Kumar, Brent Doiron|Formation and maintenance of multistability in clustered, balanced neuronal networks
+293|0 - Talk|Charles Hass, Juan Angueyra, Zachary Lindbloom-Brown, Fred Rieke, Gregory Horwitz|Chromatic detection from cone photoreceptors to individual V1 neurons to behavior in rhesus monkeys
+299|0 - Talk|Gabriela Mochol, Shuzo Sakata, Alfonso Renart, Liad Hollender, Kenneth Harris, Jaime de la Rocha|The dynamics of auditory-evoked response variability and co-variability across different brain state
+368|0 - Talk|Ann Kennedy, Gregory Wayne, Patrick Kaifosh, Karina Alvina, Larry Abbott, Nathaniel B. Sawtell|Temporal basis for predicting sensory consequences of motor commands in a cerebellum-like structure
+390|0 - Talk|Guillaume Lajoie, Kevin K. Lin, Eric Shea-Brown|Structured chaos and spike responses in stimulus-driven networks
+391|0 - Talk|Petr Znamenskiy, Qiaojie Xiong, Anthony Zador|Stimulus-response associations shape corticostriatal connections in an auditory discrimination task
+406|0 - Talk|Misha Ahrens, Kuo-Hua Huang, Drew Robson, Jennifer Li, Michael Orger, Alexander Schier, Ruben Portugues, Florian Engert|Whole-brain neuronal dynamics during virtual navigation and motor learning in zebrafish
+415|0 - Talk|Cengiz Pehlevan, Farhan Ali, Timothy M. Otchy, Bence Olveczky|A network model for learning motor timing in songbirds
+452|0 - Talk|Johannes Burge, Wilson Geisler|Optimal speed estimation in natural image movies
+476|0 - Talk|Philip N. Sabes|On the duality of motor cortex: movement representation and dynamical machine
+3|1 - Poster|Aryeh Taub, Yonatan Katz, Ilan Lampl|Synaptic plasticity shapes the excitation/inhibition balance during ongoing cortical activity
+4|1 - Poster|Thomas Preuss, Tom Test, Thomas Preuss|Test Paper
+6|1 - Poster|Carl Schoonover, Juan Tapia, Verena Schilling, Verena Wimmer, Richard Blazeski, Carol Mason, Randy Bruno|Spatial distribution and efficacy of thalamocortical synapses onto layer 4 excitatory neurons
+7|1 - Poster|Joel Zylberberg, N. Alex Cayco-Gajic, Eric Shea-Brown|Dendritic nonlinearities shape beyond-pairwise correlations and improve (spiking) population coding
+10|1 - Poster|Shay Ohayon, Ofer Avni, Adam Taylor, Roian Egnor, Pietro Perona|BEYOND ACUTE EXPERIMENTS: AUTOMATED LONG-TERM TRACKING OF SOCIALLY-HOUSED MICE
+13|1 - Poster|Ashwin Ramayya, Kareem Zaghloul, Bradley Lega, Christoph Weidemann, Michael Kahana, Gordon Baltuch|Distinct neuronal responses in the human Substantia Nigra during reinforcement learning
+14|1 - Poster|Stephen Engel, Min Bao|Multiple temporally-tuned mechanisms control visual adaptation to contrast
+15|1 - Poster|Johanni Brea, Walter Senn, Jean-Pascal Pfister|Learning Activity Patterns in Recurrent Networks of Visible and Hidden Spiking Neurons
+16|1 - Poster|Julio Chapeton, Armen Stepanyants|Efficient associative memory storage in cortical circuits of inhibitory and excitatory neurons
+21|1 - Poster|Shinsuke Koyama|On the information capacity of spike trains and detectability of rate fluctuations
+24|1 - Poster|Sridevi Sarma, Sam Burns, Sabato Santaniello, William Stan Anderson|State Dynamics of the Epileptic Brain and the Influence of Seizure Focus
+26|1 - Poster|Eric Hunsberger, Matthew Scott, Chris Eliasmith|Heterogeneity increases information transmission of neuronal populations
+29|1 - Poster|Wiktor Mlynarski|Unsupervised learning of binaural features from naturalistic stereo sounds
+30|1 - Poster|James Cavanagh, Thomas Wiecki, Angad Kochar, Michael Frank|Eyetracking and pupillometry reflect dissociable measures of latent decision processes
+32|1 - Poster|Kyriaki Sidiropoulou, Panayiota Poirazi|Encoding and decoding stimuli that generate persistent activity
+33|1 - Poster|Matthew Chalk, Paul Masset, Boris Gutkin, Sophie Deneve|Normalization predicted by optimal inference in sensory systems 
+34|1 - Poster|Jackson Cone, Mitchell Roitman|Ghrelin modulates phasic dopamine evoked by food-reward via action in the lateral hypothalamus
+35|1 - Poster|Leyla Isik, Ethan Meyers, Joel Leibo, Tomaso Poggio|Timing of invariant object recognition in humans
+37|1 - Poster|Yunguo Yu, Anita Schmid, Jonathan Victor|The laminar origin of sensitivity to high-order image statistics in macaque visual cortex
+40|1 - Poster|Kristofer Bouchard, Keith Johnson, Edward Chang|An origin for coarticulation of speech sequences in human sensory-motor cortex
+41|1 - Poster|Alexander Petrov, Taylor R. Hayes|Phasic Locus Coeruleus Activity Changes with Practice: A Pupillometry Study
+42|1 - Poster|Robert Kerr, David B. Grayden, Doreen A. Thomas, Matthieu Gilson, Anthony N. Burkitt|Generalized reward-modulated STDP: a model of operant conditioning of cortical neurons
+43|1 - Poster|Lilach Avitan, Zac Pujuc, Ethan Scott, Geoffrey Goodhill|Population codes for topography in the zebrafish optic tectum
+44|1 - Poster|Komal Kapoor, Nisheeth Srivastava, Paul Schrater|Reconciling decisions from description with decisions from experience
+45|1 - Poster|Christopher Hillar, Jascha Sohl-Dickstein, Kilian Koepsell|Efficient and optimal Little-Hopfield auto-associative memory storage using minimum probability flow
+50|1 - Poster|Felipe Gerhard, Tilman Kispersky, Gabrielle J Gutierrez, Eve Marder, Mark Kramer, Uri Eden|Successful prediction of a physiological circuit with known connectivity from spiking activity
+51|1 - Poster|Maoz Shamir, Yotam Luz|The effect of STDP temporal structure on the learning of single excitatory and inhibitory synapses
+57|1 - Poster|Brian DePasquale, Mark Churchland, Larry Abbott|Low-rank connectivity induces firing rate fluctuations in a chaotic spiking model
+58|1 - Poster|Joel Leibo, Fabio Anselmi, Jim Mutch, Akinori Ebihara, Winrich Freiwald, Tomaso Poggio|View-invariance and mirror-symmetric tuning in a model of the macaque face-processing system 
+59|1 - Poster|Thomas Akam, Peter Dayan, Rui Costa|Multi-step decision tasks for dissociating model-based and model-free learning in rodents.
+62|1 - Poster|David Sussillo, Mark Churchland, Matthew Kaufman, Krishna Shenoy|A recurrent neural network that produces EMG from rhythmic dynamics
+63|1 - Poster|Daniel Soudry, Ron Meir|A spiking input-output relation for general biophysical neuron models explains observed 1/f response
+65|1 - Poster|Oren Shriki, Jeffrey Alstott, Frederick Carver, Tom Holroyd, Richard Henson, Marie Smith, Edward Bullmore, Richard Coppola, Dietmar Plenz|Neuronal Avalanches in the Resting MEG of the Human Brain
+66|1 - Poster|Gamaleldin Elsayed, Matthew Kaufman, Stephen Ryu, Krishna Shenoy, Mark Churchland, John Cunningham|Characterization of Dynamical Activity in Motor Cortex
+67|1 - Poster|Michael Avery, Nikil Dutt, Jeffrey Krichmar|Mechanisms and circuitry underlying basal forebrain enhancement of top-down and bottom-up attention
+69|1 - Poster|Andrew Saxe, James L. McClelland, Surya Ganguli|A mathematical theory of semantic development
+70|1 - Poster|Jonathan Nassi, Ali Cetin, Anna Roe, John Reynolds|Using optogenetics to probe neural circuit mechanisms in the alert, behaving non-human primate
+71|1 - Poster|Ziv Williams|Frontal neurons enable retrieval of memories over widely varying temporal scales
+72|1 - Poster|Matthew Colonnese|Rapid Development of Feed Forward Inhibition Drives Emergence of the Alert Cortical State
+76|1 - Poster|Shirin Hadizadeh, James Hyman, Nina DiPietro, Eldon Emberly, Daniel Durstewitz, Stan Floresco, Jeremy Seamans|Dynamic value encoding by medial PFC neurons characterizes optimal risk discounting behavior.
+77|1 - Poster|Shan Shen, Ronald Van den Berg, Wei Ji Ma|When is sensory precision variable?
+79|1 - Poster|Lena Sherbakov, Gennady Livitz, Aisha Sohail, Anatoli Gorchetchnikov, Ennio Mingolla, Massimiliano Versace|A computational model of the role of eye-movements in object disambiguation
+81|1 - Poster|Wanying Zhang, Randy Bruno|In vivo dissection of layer 1 inputs in the barrel cortex
+82|1 - Poster|Kristofer Bouchard, Surya Ganguli, Michael Brainard|Hebbian mechanisms underlying the learning of Markovian sequence probabilities
+85|1 - Poster|Pulin Gong, John Palmer|Associative learning as an emergent property of spatially extended spiking neural circuits with STDP
+87|1 - Poster|Yasuhiko Igarashi, Masato Okada|Theory of higher-order correlations n neural network with columnar structure
+89|1 - Poster|Leonardo Mesquita, Shiva Sinha, Rob de Ruyter van Steveninck|Strategies for optomotor control in free flying Drosophila
+90|1 - Poster|Ehsan Arabzadeh, Mehdi Adibi, Colin WG Clifford|POPULATION DECODING IN RAT BARREL CORTEX
+92|1 - Poster|John Palmer, Pulin Gong|Formation and regulation of dynamic patterns in two-dimensional spiking neural circuits with STDP
+93|1 - Poster|Karthik Shankar|Optimally fuzzy memory
+98|1 - Poster|Mijung Park, J. Patrick Weller, Gregory Horwitz, Jonathan Pillow|Adaptive estimation of firing rate maps under super-Poisson variability
+99|1 - Poster|Rony Paz|A not so bad tradeoff: perception and generalization of aversive memories
+100|1 - Poster|Paolo Puggioni, Miha Pelko, Mark van Rossum, Ian Duguid|Integrative properties of motor cortex pyramidal cells during quiet wakefulness and movement
+101|1 - Poster|Cristina Savin, Peter Dayan, Mate Lengyel|Correlations strike back (again): the case of associative memory retrieval
+102|1 - Poster|Brian Monson, Yaniv Morgenstern, Dale Purves|Response properties of sensory neurons artificially evolved to maximize information
+104|1 - Poster|Yanping Huang, Rajesh Rao|The effects of prior, rewards and sensory evidence in perceptual decision making
+105|1 - Poster|Simone Carlo Surace, Jean-Pascal Pfister|Adaptive Gaussian Poisson process: a model for in vivo neuronal dynamics
+106|1 - Poster|Su Hong, Haram Kim, Sora Yun, Christopher Fiorillo|T-type Calcium Channels Promote Predictive Homeostasis in Thalamocortical Neurons of LGN
+107|1 - Poster|Nandakumar Narayanan, James Cavanagh, Marcelo Caetano, Michael Frank, Mark Laubach|Common neural correlates of adaptive control in the anterior cingulate cortex of rats and humans
+108|1 - Poster|Jakob Macke, Iain Murray, Peter Latham|How biased are maximum entropy models of neural population activity?
+109|1 - Poster|Ben Vermaercke, Gert Van den Bergh, Florian Gerich, Hans P. Op de Beeck|Hierarchical shape processing and position tolerance in rat lateral visual cortex
+111|1 - Poster|Stuart Yarrow, Khaleel Razak, Aaron Seitz, Peggy Series|Detecting and quantifying topographic order in neural maps
+113|1 - Poster|Rafi Haddad, Anne Lanjuin, Naoshige  Uchida|OLFATORY CORTICAL NEURONS READ OUT A RELATIVE TIME CODE IN THE OLFACTORY BULB
+117|1 - Poster|Ritwik Niyogi, Yannick  Breton, Rebecca Solomon, Kent Conover, Peter Shizgal, Peter Dayan|Some work and some play: a normative, microscopic approach to allocating time between work & leisure
+119|1 - Poster|DJ Strouse, Balazs Ujfalussy, Mate Lengyel|Dendritic subunits: the crucial role of input statistics and a lack of two-layer behavior
+120|1 - Poster|David Barrett, Sophie Deneve, Christian Machens|Quadratic programming of tuning curves: from spiking dynamics to function 
+122|1 - Poster|Bingxing Huo, Yurong Gao, Patrick Drew|Hemodynamic responses in the somatosensory cortex during locomotion
+123|1 - Poster|Akihiro Funamizu, Makoto Ito, Kenji Doya, Ryohei Kanzaki, Hirokazu Takahashi|Value-updating interaction among contexts in choice behaviors of rats
+124|1 - Poster|Rong Guo, Michael Tobia, Wendelin B?hmer, Tobias Sommer, Christian B?chel, Klaus Obermayer|The neural correlates of counterfactual-Q-learning in a  strategic sequential investment task 
+125|1 - Poster|Scott Linderman, Ryan Adams|Inferring functional connectivity with priors on network topology
+127|1 - Poster|Flavio Frohlich, Kristin Sellers, Davis Bennett|Anesthesia amplifies visual responses by suppressing cortical state dynamics
+129|1 - Poster|Anne Collins, Michael Frank|A model of interactive effects of learning and choice incentive in the striatal dopamine system
+130|1 - Poster|Laurence Aitchison, Peter Latham|The synaptic sampling hypothesis
+131|1 - Poster|Christopher Henry, Michael Hawken|Modulatory signals from V1 extra-classical receptive fields with distinct spatio-temporal dynamics
+134|1 - Poster|Tilman Kispersky, Eve Marder|Compensation for neuronal circuit variability
+136|1 - Poster|Lucas Theis, Dan Arnstein, Andr? Maia Chagas, Cornelius Schwarz, Matthias Bethge|Beyond GLMs: a generative mixture modeling approach to neural system identification
+137|1 - Poster|Daniel Coca, Uwe Friederich, Roger Hardie, Stephen Billings, Mikko Juusola|Fly photoreceptors are tuned to detect and enhance higher-order phase correlations  
+139|1 - Poster|Radhika Madhavan, Hanlin Tang, Daniel Millman, Nathan Crone, Joseph Madsen, William Stan Anderson, Gabriel Kreiman|Gamma band activity in the human parahippocampal gyrus predicts performance in a sequence task
+140|1 - Poster|Daniel Robles-Llana, Ila Fiete|Robust formation of continuous attractor networks
+141|1 - Poster|Arjun Bansal, Alexandra Golby, Joseph Madsen, Gabriel Kreiman|Neural correlates of target detection in the human brain
+142|1 - Poster|Audrey Houillon, Robert  Lorenz, Andreas Heinz, J?rgen Gallinat, Klaus Obermayer|The effect of novelty-?based exploration on reinforcement learning in humans.
+143|1 - Poster|Alexander Keinath, Joshua Dudman, Isabel Muzzio|Spatial Representation in the Ventral Hippocampus
+145|1 - Poster|Robert Haslinger, Demba Ba, Ziv Williams, Gordon Pipa|Fast missing mass approximation for the partition function of stimulus driven Ising models
+147|1 - Poster|Skander Mensi, Christian Pozzorini, Olivier Hagens, Wulfram Gerstner|Evidence for a nonlinear coupling between firing threshold and subthreshold membrane potential
+148|1 - Poster|Adam Zaidel, Wei Ji Ma, Dora Angelaki|Supervised cue calibration relies on the multisensory percept
+150|1 - Poster|Ingmar Kanitscheider, Jeffrey Beck, Alexandre Pouget|Bayesian decision-making using neural attractor networks
+151|1 - Poster|Nicholas Franklin, Michael Frank|Uncertainty and the striatum: How tonically active neurons may aid learning in dynamic environments.
+152|1 - Poster|Wilson Geisler, Jeffrey Perry|Recursive conditional means (RCM): A powerful mechanism for combining sensory estimates
+153|1 - Poster|Charles Michelson, Jonathan Pillow, Eyal Seidemann|Perceptual decisions are limited primarily by variability in early sensory cortex
+154|1 - Poster|Andrew  Meso, James Rankin, Pierre Kornprobst , Guillaume S Masson|Multi-stability in motion perception combines multiple underlying neural mechanisms
+155|1 - Poster|KiJung Yoon, Daniel Robles-Llana, Amina Kinkhabwala, David Tank, Ila Fiete|Are aperiodic 1D grid cell responses consistent with low-dimensional continuous attractor dynamics?
+157|1 - Poster|Yoonseob Lim, Barbara Shinn-Cunningham, Timothy Gardner|Time-scales of neural integration constrain a songbird operant behavior
+158|1 - Poster|Christian Pozzorini, Richard Naud, Skander Mensi, Wulfram Gerstner|Temporal decorrelation by power-law adaptation in pyramidal neurons
+160|1 - Poster|Nora Youngs, Alan Veliz-Cuba, Vladimir Itskov, Carina Curto|The neural ring: an algebraic tool for analyzing the intrinsic structure of neural codes
+161|1 - Poster|Cristina Savin, Pietro Berkes, Chiayu Chiu, Jozsef Fiser, Mate Lengyel|Similarity between spontaneous and sensory-evoked activity does suggest learning in the cortex
+162|1 - Poster|Rui P. Costa, P. Jesper Sj?str?m, Mark van Rossum|Probabilistic Inference Reveals Synapse-Specific Short-Term Plasticity in Neocortical Microcircuits
+165|1 - Poster|Robert Mill, Christian Sumner|Criterion Dynamics in the Ferret Optimise Decision Bias During an Auditory Detection Task
+167|1 - Poster|Agostina Palmigiano, Annette Witt, Demian Battaglia, Theo Geisel|Directed communication-through-coherence during synchronous transients
+171|1 - Poster|Christian Albers, Klaus Richard Pawelzik|Synaptic Theta Susceptibility in Spike Timing Dependent Plasticity
+172|1 - Poster|Fleur Zeldenrust, Sophie Deneve, Boris Gutkin|Matching encoding and decoding with spiking neurons
+173|1 - Poster|Philipp Berens, Tom  Baden, Matthias Bethge, Thomas Euler|Recording the entire visual representation along the vertical pathway in the mammalian retina
+174|1 - Poster|Alejandro Ramirez, Eftychios Pnevmatikakis, Josh  Merel, Ken Miller, Liam Paninski, Randy Bruno|Laminar differences in receptive fields measured by reverse correlation of intracellular recordings.
+175|1 - Poster|Gal Chechik, Hadas Taubman, Ariel Tankus, Eilon Vaadia, Itzhak  Fried, Rony Paz|Motor coding in the supplementary motor area of humans and monkeys
+177|1 - Poster|Alexis Dubreuil, Nicolas Brunel|Storing structured sparse memories in a large-scale multi-modular cortical network model
+178|1 - Poster|Gergo Orban, Pierre-Olivier Polack, Peyman Golshani, Mate Lengyel|Stimulus-dependence of membrane potential and spike count variability in V1 of behaving mice
+179|1 - Poster|Mark Kostuk, Daniel Meliza, Hao Huang, Alian Nogaret, Daniel Margoliash, Henry Abarbanel|Data assimilation of individual HVc neurons using regularized variational optimization.
+182|1 - Poster|Beth Lopour, Itzhak  Fried, Dario Ringach|Spike-triggered local field potential as an indicator of the human epileptogenic zone
+183|1 - Poster|Urs Bergmann, Michiel Remme, Susanne Schreiber, Henning Sprekeler, Richard Kempter|A cellular mechanism for system memory consolidation
+184|1 - Poster|Arash Fassihi , Athena Akrami, Vahid Esmaeili, Mathew Diamond|How humans and rats accumulate information in a tactile task, and a putative neuronal code
+185|1 - Poster|Xin Huang|Circuit mechanisms revealed by spike-timing correlations in macaque area MT
+189|1 - Poster|Seyed-Mahdi Khaligh-Razavi, Nikolaus Kriegeskorte|Object-vision models that better explain IT also categorize better, but all models fail at both
+191|1 - Poster|Brice Bathellier, Sui Poh Tee, Christina Hrovat, Simon Rumpel|A multiplicative learning rule for auditory discrimination learning in mice
+192|1 - Poster|David Schwab, Kristina Simmons, Jason Prentice, Vijay  Balasubramanian|Representing correlated retinal population activity with Restricted Boltzmann Machines
+193|1 - Poster|Sina Tafazoli, Houman Safaai, Matilde Fiorini, Gioia  De Franceschi, Davide Zoccolan|Object selectivity and tolerance to variation in object appearance trade off across rat visual corti
+194|1 - Poster|Thomas Naselaris, Cheryl Olman, Dustin Stansbury, Jack Gallant, Kamil Ugurbil|Tuning to low-level visual features is conserved during mental imagery
+195|1 - Poster|Stephanie Palmer, Leslie  Osborne|Constraining cortical population coding of visual motion in area MT by smooth pursuit behavior
+197|1 - Poster|David Barack, Michael Platt|Neuronal signatures of strategic decisions in posterior cingulate cortex
+198|1 - Poster|Ulf Knoblich, Jessica Cardin|State-dependent impact of distinct interneuron types on visual contrast gain
+199|1 - Poster|Xuexin Wei, Alan Stocker|Constraining a Bayesian model of orientation perception with efficient coding
+200|1 - Poster|Peter Rudebeck, Andrew Mitz, Joshua Ripple, Ravi Chacko, Elisabeth  Murray|The amygdala is critical for reward encoding in the orbital, but not medial, prefrontal cortex
+201|1 - Poster|Shreejoy Tripathy, Richard Gerkin, Judy Savitskaya, Nathaniel Urban|NeuroElectro: a community database on the electrophysiological diversity of mammalian neuron types
+204|1 - Poster|Merav Stern, Haim Sompolinsky, Larry Abbott|Dynamics of Random Clustered Networks
+205|1 - Poster|Matthew Kaufman, David Raposo, Anne Churchland|Dynamics of decision and action in rat posterior parietal cortex
+206|1 - Poster|Michael Graupner, Srdjan Ostojic|Natural firing patterns reduce sensitivity of synaptic plasticity to spike-timing
+207|1 - Poster|Payam Piray, Marieke van der Schaaf, Ivan Toni, Roshan Cools|Dopamine modulates functional communication of the human striatum subdivision
+208|1 - Poster|Nathan Hall, Carol Colby|S cone isolating stimuli evoke express saccades in a chromatic contrast dependent manner
+209|1 - Poster|Athena Akrami, Arash Fassihi , Vahid Esmaeili, Mathew Diamond|Tactile working memory in rat and human: Prior competes with recent evidence
+210|1 - Poster|Vivek Jayaraman, Johannes Seelig|Motor-modulated visual maps in the fly brain: neural substrates for visually guided navigation?
+213|1 - Poster|Kamesh Krishnamurthy, Matthew Nassar, Shilpa Sarode, Joshua Gold|Dynamic Calibration of the Influence of Priors and Sensory Input for Perceptual Estimation
+217|1 - Poster|Thomas Miconi|Here's Waldo! A mechanistic model of visual search predicts human behavior in an object search task
+219|1 - Poster|Agnieszka Grabska-Barwinska, Jeffrey Beck, Alexandre Pouget, Peter Latham|Rapid detection of odors based on fast, sampling-based inference
+220|1 - Poster|Tara Dezhdar, Tobias  Albert, Gary Lewin, Michael Schmuker|Temporal dynamics of pain evoked spike trains differentiate  three subtypes of  pain receptors
+221|1 - Poster|Yi Zhou, Xiaoqin  Wang|Strategies for encoding competing acoustic events by single neurons in primate auditory cortex
+224|1 - Poster|Gautam Awatramani, David Schwab, Stuart Trenholm, Vijay  Balasubramanian|Lag normalization in an electrically-coupled neural network
+226|1 - Poster|Daniela Pamplona, Jochen Triesch, Constantin Rothkopf|Eye's imaging process explains ganglion cells anisotropies
+227|1 - Poster|Xaq Pitkow, Sheng Liu, Yong Gu, Dora Angelaki, Greg DeAngelis, Alexandre Pouget|How can single neurons predict behavior?
+228|1 - Poster|James Aimone, Craig Vineyard|How neurogenesis and the scale of the dentate gyrus affect the resolution of memories 
+229|1 - Poster|Janos Perge|Decoding arm movements from hybrid spike-field potentials in human motor cortex
+233|1 - Poster|Frederic Crevecoeur, Stephen H Scott|Rapid update in state estimation accounts for fast feedback control
+234|1 - Poster|Andrew Fink, Eiman Azim, Katherine Croce, Z. Josh Huang, Larry Abbott, Thomas M. Jessell|Spinal presynaptic inhibition promotes smooth limb trajectories during reaching
+235|1 - Poster|Iris Grothe, David Rotermund, Simon  Neitzel, Sunita Mandon, Andreas Kreiter, Klaus Richard Pawelzik|The neuronal input channel switched by attention reflects Routing by Coherence
+236|1 - Poster|Alexander Hanuschkin, Surya Ganguli, RIchard Hahnloser|Closing the loop; Inverse-model learning with a nonlinear avian syrinx and sparse auditory coding
+238|1 - Poster|Jason Prentice, Vijay  Balasubramanian|Optimal foraging and multiscale representation by hippocampal place cells
+239|1 - Poster|Kiyohito Iigaya, Leo P. Sugrue, Greg S. Corrado, Yonatan Loewenstein, William T. Newsome, Stefano Fusi|Deviations from the matching law reflect reward integration over multiple timescales
+242|1 - Poster|Claudia Clopath, Henning Sprekeler, Tim Vogels|Receptive field formation by interacting excitatory and inhibitory plasticity
+243|1 - Poster|Nergis Toemen, Udo Ernst|Attention improves information processing by tuning cortical networks towards critical states
+244|1 - Poster|Timothy Machado, Liam Paninski, Thomas M. Jessell|Large-scale optical imaging reveals structured network output in isolated spinal cord
+245|1 - Poster|Lucas C Parra, Davide Reato|Network dynamics amplifies the effects of weak electric fields on gamma and slow-wave activity
+247|1 - Poster|Rosemary Cowell, David Huber, John Serences|A novel method for fMRI analysis: Inferring neural mechanisms from voxel tuning
+248|1 - Poster|David Markowitz, Bijan Pesaran|Distinct coherent ensembles reflect working memory processes in primate PFC
+249|1 - Poster|Jeffrey Seely, Matthew Kaufman, Adam Kohn, Matthew Smith, Anthony Movshon, Nicholas Priebe, Stephen Lisberger, Stephen Ryu, Krishna Shenoy, Larry Abbott, John Cunningham, Mark Churchland|Quantifying representational and dynamical structure in large neural datasets
+250|1 - Poster|Douglas Ollerenshaw, He Zheng, Qi Wang, Garrett Stanley|The adaptive trade-off between discriminability and detectability in the vibrissa system
+251|1 - Poster|Jeremy Freeman, Greg Field, Peter Li, Martin Greschner, Lauren Jepson, Neil Rabinowitz, Eftychios Pnevmatikakis, Deborah Gunning, Keith Mathieson, Alan Litke, EJ Chichilnisky, Liam Paninski, Eero Simoncelli|Spatial structure and organization of nonlinear subunits in primate retina
+253|1 - Poster|Daniel Yamins, Ha Hong, Ethan  Solomon, James DiCarlo|Ventral stream models that solve hard object recognition tasks naturally exhibit neural consistency.
+257|1 - Poster|Rishidev Chaudhuri, Alberto Bernacchia, Xiao-Jing Wang|Diversity of timescales in network activity
+258|1 - Poster|Vincent Costa, Bruno Averbeck|Solving the secretary problem
+259|1 - Poster|Farzad Farkhooi, Martin Nawrot|Sparse coding and dynamic suppression of variability in balanced cortical networks
+261|1 - Poster|David Raposo, Matthew Kaufman, Anne Churchland|Neural responses in the rat parietal cortex during decision formation and movement
+262|1 - Poster|Ethan Meyers, Robert Schafer, Ying Zhang, Tomaso Poggio, Robert Desimone|The role of the pulvinar in visual processing and attention
+263|1 - Poster|Todd Hudson, Michael Landy|Error statistics and error correction: Evidence for multiple coordinate encodings
+264|1 - Poster|Mitchell Day, Bertrand Delgutte|Decoding sound source location using neural population activity patterns
+265|1 - Poster|Sungho Hong, Mario Negrello, Erik De Schutter|Behavior-modulated correlation of cerebellar Purkinje neuron and network activity 
+266|1 - Poster|Matthias Bethge, Niklas Luedtke, Debapriya Das, Lucas Theis|A generative model of natural images as patchworks of textures
+269|1 - Poster|Kedarnath Vilankar, James Golden, Damon Chandler, David Field|Local edge statistics provides significant information regarding occlusions in natural scenes
+271|1 - Poster|Constantin Rothkopf, Dana Ballard|Eye movements depend on the intrinsic reward structure in a natural navigation task
+273|1 - Poster|Vijay  Balasubramanian, Jason Prentice, Xuexin Wei|The sense of place: grid cells in the brain and the transcendental number e 
+274|1 - Poster|Lars Buesing, Jakob Macke, Maneesh Sahani|Robust estimation for neural state-space models
+275|1 - Poster|Yuwei Cui, Yanbin  Wang, Jonathan  Demb, Daniel Butts|Evidence for presynaptic inhibition in shaping retinal processing
+277|1 - Poster|Sang Wan Lee, Shinsuke Shimojo, John ODoherty|Neural correlates of arbitration between model-based and model-free reinforcement learning systems
+278|1 - Poster|David Higgins, Michael Graupner, Nicolas Brunel|Memory maintenance in calcium-based plastic synapses in the presence of background activity
+279|1 - Poster|Ali Neishabouri, Aldo Faisal|Energy constraints link structure and function in thin axons in the brain?s wiring
+280|1 - Poster|Subhaneil Lahiri, Surya Ganguli|A general theory of learning and memory with complex synapses
+282|1 - Poster|Francesca Barbieri, Alberto  Mazzoni, Nikos K. Logothetis, Stefano  Panzeri, Nicolas Brunel|Input dependence of local field potential spectra: experiment vs theory
+284|1 - Poster|Karin Knudson, Jonathan Pillow|Spike train entropy-rate estimation using hierarchical Dirichlet process priors
+286|1 - Poster|John Briguglio, Ann Hermundstad, Mary Conte, Jonathan Victor, Gasper Tkacik, Vijay  Balasubramanian|Perceptual salience of fourth-order visual textures and natural scene statistics
+287|1 - Poster|Philipp Schnepel, Ad Aertsen, Arvind Kumar, Clemens Boucsein|Physiology and impact of horizontal connections in rat neocortex
+288|1 - Poster|Maryam Shanechi, Jessica Chemali, Max Liberman , Ken Solt, Emery Brown|A brain-machine interface for control of medically-induced coma
+292|1 - Poster|Wei Wei, Jonathan Rubin, Xiao-Jing Wang|Being balanced: the role of the indirect pathway of the basal ganglia in threshold detection
+295|1 - Poster|Bongsoo Suh, Stephen Baccus|Disentangling serial adaptation using a biophysically constrained model
+296|1 - Poster|Emily Denton, Richard Zemel|Conditional random fields for spiking populations of neurons
+297|1 - Poster|Alessandro Ticchi, Aldo Faisal|A biophysical model of Bayesian inference and MCMC sampling in neural circuits
+298|1 - Poster|James Trousdale, Sam Carroll, Kresimir Josic|Encoding the direction of ego-motion in the fly brain
+302|1 - Poster|Ekaterina Abramova, Luke Dickens, Daniel Kuhn, Aldo Faisal|A model of hierarchical motor control and learning: from action sequence to muscular control
+303|1 - Poster|Robert Guetig|Self-supervised neuronal processing of continuous sensory streams
+304|1 - Poster|Il Park, Evan Archer, Nicholas Priebe, Jonathan Pillow|Got a moment or two? Neural models and linear dimensionality reduction
+306|1 - Poster|Ulrik Beierholm, Tim Yates|A non-parametric Bayesian prior for causal inference of auditory streaming
+307|1 - Poster|Vassilios Christopoulos, Paul Schrater|A Computational theory of action-based decisions 
+309|1 - Poster|Mikio Aoi, Yoonseob Lim, Uri Eden, Timothy Gardner|Object-based spectro-temporal analysis of auditory signals
+313|1 - Poster|Johnatan Aljadeff, Michael J. Berry II, Tatyana Sharpee|Singular dimensions in spike triggered ensembles of correlated stimuli
+314|1 - Poster|Tao Hu, Alexander Genkin, Dmitri Chklovskii|Robust online estimation of noisy sparse signals by threshold-linear and integrate-and-fire neurons
+315|1 - Poster|Jorg Lucke, Jacquelyn Shelton, Jorg Bornschein, Philip Sterne, Pietro Berkes, Abdul-Saboor Sheikh|Combining Feed-Forward Processing and Sampling for Neurally Plausible Encoding Models
+316|1 - Poster|Edward Frady, William Kristan|Gain-control via shunting-inhibition in a spiking-model of leech local-bend.
+317|1 - Poster|Pedro Goncalves|A plasticity mechanism for the robustness of the oculomotor integrator
+319|1 - Poster|Micah Richert, Botond Szatmary, Eugene Izhikevich|Self-tuning spike-timing dependent plasticity curves to simplify models and improve learning
+320|1 - Poster|Nicholas Steinmetz, Ben Benjamin, Kwabena Boahen|NMDA-mediated feedback accounts for effects of visual spatial attention in Neurogrid simulations
+323|1 - Poster|John Thompson, Gidon Felsen|Activity in mouse pedunculopontine tegmental nucleus reflects priors for action value
+324|1 - Poster|Venkatesh Gopal, Robert Morton, Alexander  Grabenhofer|Seeing turbulence - real-time visualization of turbulent odor plumes
+325|1 - Poster|Evan Archer, Il Park, Jonathan Pillow|Semi-parametric Bayesian entropy estimation for binary spike trains
+328|1 - Poster|Gil Costa, Zachary  F. Mainen|Interplay of confidence and value in the transformation of olfaction-to-action
+330|1 - Poster|Sean Kelly, Jens Kremkow, Jianzhong Jin, Yushi Wang, Qi Wang, Jose-Manuel Alonso, Garrett Stanley|Thalamic synchrony drives cortical feature selectivity in standard and novel visual stimuli
+331|1 - Poster|Matthew Balcarras, Salva Ardid, Daniel Kaping, Stefan Everling, Thilo Womelsdorf|Model-free reinforcement learning predicts attentional selection during foraging in the macaque
+332|1 - Poster|Botond Szatmary, Micah Richert, Jayram Moorkanikara Nageswaran, Csaba Petre, Filip Piekniewski, Sach Sokol, Eugene Izhikevich|Emergence of Bottom-up Saliency in a Spiking Model of V1
+333|1 - Poster|Kris Chaisanguanthum, Helen Shen, Philip N. Sabes|Single Neuron Contributions to Motor Variability
+334|1 - Poster|Arjun Bharioke, Shin-ya Takemura, Shiv Vitaladevuni, Richard Fetter, Zhiyuan Lu, Stephen Plaza, Louis Scheffer, Ian Meinertzhagen, Dmitri Chklovskii|Neural implementations of motion detection in the fly medulla: insights from connectivity and theory
+336|1 - Poster|Paul Schrater, Nisheeth Srivastava|How does the brain compute value?  A rational model for preference formation.
+338|1 - Poster|Mengchen Zhu, Ian Stevenson, Urs Koster, Charles Gray, Bruno Olshausen, Christopher Rozell|Sparse coding model and population response statistics to natural movies in V1
+339|1 - Poster|Tomislav Milekovic, Daniel Bacher, Blaise Yvert, Leigh Hochberg, Emad Eskandar, Sydney Cash, John Donoghue|Volitional control by a person with tetraplegia of high gamma local field potentials (LFPs) recorded
+340|1 - Poster|Geoffrey Adams, John Pearson, Michael Platt|Orbitofrontal cortex is sensitive to natural behavioral categories during social exploration
+341|1 - Poster|Eugene Izhikevich, Filip Piekniewski, Jayram Moorkanikara Nageswaran, Csaba Petre, Micah Richert, Sach Sokol, Philip Meier, Marius Buibas, Dimitry Fisher, Botond Szatmary|Spontaneous emergence of simple and complex receptive fields in a spiking model of V1
+342|1 - Poster|Nikon Rasumov, Jeremy Niven, Simon Laughlin|Energy and Information in insect photoreceptors
+344|1 - Poster|Rainer Engelken, Michael  Monteforte, Fred Wolf|Dynamical entropy production in cortical circuits with different network topologies
+345|1 - Poster|Jeffrey Beck, Ingmar Kanitscheider, Xaq Pitkow, Peter Latham, Alexandre Pouget|The perils of inferring information from correlations
+346|1 - Poster|Daniel Marti, Omri Barak, Mattia Rigotti, Stefano Fusi|Scalability properties of multimodular networks with dynamic gating
+347|1 - Poster|Balazs Hangya, Joshua Sanders, Adam Kepecs|From metacognition to statistics: relating confidence reports across species
+348|1 - Poster|Joel Kaardal, Jeff Fitzgerald, Michael J. Berry II, Tatyana Sharpee|Functional Bases for Multidimensional Neural Computations
+349|1 - Poster|Eric DeWitt, Andre Mendonca, Adam Kepecs, Zachary  F. Mainen|Confidence based learning in a perceptual task: how uncertainty and outcome influence choice
+351|1 - Poster|Marjena Popovic, Ralf Haefner, Mate Lengyel, Jozsef Fiser|Psychophysical evidence for a sampling-based representation of uncertainty in low-level vision
+353|1 - Poster|Herv? Rouault, Karol Gregor, Dmitri Chklovskii|A spatio-temporal lattice filter model for the visual pathway
+355|1 - Poster|A. Moses Lee, Lunghao Tai, Antonello Bonci, Linda Wilbrecht|Striatal optogenetic stimulation reveals distinct neural computation for value-based decision making
+356|1 - Poster|Gautam Agarwal, Ian Stevenson, Kenji Mizuseki, Gyorgy Buzsaki, Friedrich Sommer|Traveling waves of the hippocampal theta rhythm encode rat position
+357|1 - Poster|Manisha Bhardwaj, Ronald Van den Berg, Wei Ji Ma, Kresimir Josic|Do humans account for stimulus correlations in visual perception ?
+358|1 - Poster|Baktash Babadi, Bence Olveczky|Modeling adaptive changes in the motor program underlying birdsong
+359|1 - Poster|Yevgeniy Sirotin, Roman Shusterman, Dmitry Rinberg|Neural coding of perceived odor intensity
+360|1 - Poster|Falk Lieder|Controllability and resource-rational planning
+361|1 - Poster|He Zheng, Douglas Ollerenshaw, Qi Wang, Garrett Stanley|Adaptive shaping of feature selectivity in the rodent vibrissa system
+362|1 - Poster|Samuel Sober, Conor Kelly|A single computational mechanism for both stability and flexibility in vocal error correction
+363|1 - Poster|Hongsup Shin, Ronald Van den Berg, Wei Ji Ma|Independent pools of visual short-term memory resource for different features
+365|1 - Poster|Yasmine El-Shamayleh, Anitha Pasupathy|Size-invariant shape coding in visual area V4 
+366|1 - Poster|David Pfau, Eftychios Pnevmatikakis, Liam Paninski|Robust learning of low dimensional dynamics from large neural ensembles
+369|1 - Poster|Gregory Wayne, Larry Abbott|A design procedure for hierarchical neural control.
+370|1 - Poster|Tatyana Sharpee, Minjoon Kouh, John Reynolds|Trade-off between curvature tuning and position invariance in visual area V4
+372|1 - Poster|Friederike Schuur, Brian P Tam, Laurence T Maloney|Changing subjects? fallacies by changing their beliefs about the dynamics of their environment
+374|1 - Poster|Timothy Hanks, Chunyu Ann Duan, Jeffrey Erlich, Bingni Brunton, Carlos Brody|Different response properties of rat parietal and frontal cortices during evidence accumulation
+375|1 - Poster|Islam Badreldin, Karthikeyan Balasubramanian, Mukta Vaidya, Joshua Southerland, Andrew Fagg, Nicholas Hatsopoulos, Karim Oweiss|Evaluation of single unit error contribution to neural state space dynamics in linear BMI decoders
+376|1 - Poster|Maria Dadarlat, Joseph O'Doherty, Philip N. Sabes|Multisensory integration of vision and intracortical microstimulation for sensory feedback. 
+377|1 - Poster|Ari Pakman, Carl Smith, Liam Paninski|Sparse Bayesian inference and experimental design for synaptic weights and locations
+378|1 - Poster|Manuel Schottdorf, Wolfgang Keil, Michael Schnabel, David M. Coppola, Siegrid L?wel, Leonard E. White, Matthias Kaschube, Fred Wolf|Do orientation preference maps arise from hexagonal retinal ganglion cell mosaics?
+381|1 - Poster|John Murray, Alberto Bernacchia, Tatiana Pasternak, Camillo Padoa-Schioppa, Daeyeol Lee, Xiao-Jing Wang|Hierarchy of intrinsic timescales across primate cortex
+383|1 - Poster|Jeffrey Markowitz, Gregory  Guitchounts, Timothy Gardner|Slow time-scales in songbird neural sequence generation.?
+385|1 - Poster|Zhuo Wang, Alan Stocker, Haim Sompolinsky, Daniel Lee|Optimal neural tuning for arbitrary stimulus priors with Gaussian input noise
+386|1 - Poster|Dongsung Huh|Novel motion illusion evidence for perception-action coupling
+387|1 - Poster|Ana Calabrese, Sarah M N Woolley|Timescale-dependent shaping of correlations by stimulus features in the auditory system
+389|1 - Poster|Jonathan Pillow, Il Park|Beyond Barlow: a Bayesian theory of efficient neural coding
+392|1 - Poster|Ziqiang Wei, Tao Hu, Dmitri Chklovskii|Optimal de-noising and predictive coding account for spatiotemporal receptive field of LGN neurons
+393|1 - Poster|David M?ly, Thomas Serre|Computational models of contour detection: role of lateral connections, inhibition and normalization
+394|1 - Poster|Daniel O'Shea, Werapong Goo, Paul Kalanithi, Ilka Diester, Charu Ramakrishnan, Karl Deisseroth, Krishna Shenoy|Neural dynamics following optogenetic disruption of motor preparation
+395|1 - Poster|Ashlan Reid, Tomas Hromadka, Anthony Zador|Feedforward inhibition controls tuning in auditory cortex by restricting initial spike counts
+399|1 - Poster|Sean Escola, Larry Abbott|Internally generated transitions in multi-state recurrent neural networks
+402|1 - Poster|Marino Pagan, Nicole Rust|Visual target signals are computed via a dynamic ?and-like? mechanism in IT and perirhinal cortex
+403|1 - Poster|Justin Ales, Damon Clark, James Fitzgerald, Daryl Gohl, Marion Silies, Anthony Norcia, Thomas Clandinin|Motion estimation involves high-order correlations differentially tuned for light and dark edges
+405|1 - Poster|Robbe Goris, Eero Simoncelli, Anthony Movshon|Modeling cortical responses to mixture stimuli reveals origins of orientation tuning variation
+407|1 - Poster|Noam Roth, Margot Wohl, Nicole Rust|Invariant population representations of objects are enhanced in IT during target search
+409|1 - Poster|Philip Meier, Micah Richert, Jayram Moorkanikara Nageswaran, Eugene Izhikevich|Temporally evolving surround suppression helps decoding in a spiking model of motion processing 
+410|1 - Poster|Kamiar Rahnama Rad, Carl Smith, Liam Paninski|Efficient hierarchical receptive field estimation in simultaneously-recorded neural populations
+411|1 - Poster|Pablo Jadzinsky, Stephen Baccus|Gating of retinal information transmission by saccadic eye movements
+413|1 - Poster|Alireza Soltani, Ya-Hsuan Liu, Shih-Wei Wu|Dynamic Integration of Sensory Evidence and Diminishing Reward in Perceptual Decision Making
+414|1 - Poster|R. James Cotton, Emmanouil Froudarakis, Peter  Saggau, Andreas Tolias|3D Random access ultrafast two-photon imaging reveals the structure of network activity. 
+417|1 - Poster|Vladimir Itskov, Carina Curto|Associative memory encoding in bump attractor networks
+418|1 - Poster|Wolfgang Keil, Fred Wolf, Juan-Daniel Florez-Weidinger, Matthias Kaschube, Michael Schnabel, David M. Coppola, Siegrid L?wel, Leonard E. White|Is there a critical area size for the transition from interspersed to columnar V1 architecture?
+419|1 - Poster|Yingxue Wang, Eva  Pastalkova|Loss of theta modulation of the hippocampal cell firing is accompanied by deterioration of episode f
+420|1 - Poster|Nima Dehghani, Adrien Peyrache, Eric Halgren, Sydney Cash, Alain Destexhe|The geometry of excitation-inhibition balance in human neocortex
+421|1 - Poster|Jacob Yates, Il Park, Lawrence Cormack, Jonathan Pillow, Alexander Huk|Precise characterization of multiple LIP neurons in relation to stimulus and behavior
+422|1 - Poster|Mayur Mudigonda, Ian Stevenson, Urs Koster, Christopher Hillar, Charles Gray, Bruno Olshausen|Predicting V1 neural responses to natural movies using the shift-invariant bispectrum 
+423|1 - Poster|Ryan Adams, Geoffrey Hinton, Richard Zemel|Unsupervised learning of latent spiking representations
+424|1 - Poster|Torsten L?dge, Robert Urbanczik, Walter Senn|Motion-induced Gain Modulation In V1 Improves Contour Detection
+425|1 - Poster|Anan Moran, Donald Katz|Single neurons vs. population dynamics: What is changed through learning and extinction?
+426|1 - Poster|Emmanouil Froudarakis, Philipp Berens, R. James Cotton, Alexander S. Ecker, Peter  Saggau, Matthias Bethge, Andreas Tolias|Encoding of natural scene statistics in the primary visual cortex of the mouse
+427|1 - Poster|Maximilian Puelma Touzel, Michael  Monteforte, Fred Wolf|Controlling the trade-off between categorization and separation via resonance in the olfactory bulb
+428|1 - Poster|Ioana Carcea, Natalya Zaika, Robert C. Froemke|Circuit mechanisms underlying cognitive flexibility in rats
+429|1 - Poster|Peiran Gao, Eric Trautmann, Byron Yu, Gopal Santhanam, Stephen Ryu, Krishna Shenoy, Surya Ganguli|Dimensionality, dynamics, and correlations in the motor cortical substrate for reaching
+430|1 - Poster|Jasper Snoek, Ryan Adams, Richard Zemel|Modeling inter-neuron inhibition with determinantal point processes
+431|1 - Poster|Adhira Sunkara, Greg DeAngelis, Dora Angelaki|Compensation of heading tuning for rotation in area VIP: Retinal and extra-retinal contributions
+432|1 - Poster|Patrick Campbell, Michael Buice, Duane Nykamp|The influence of network structure on neuronal dynamics
+433|1 - Poster|Sachin Ranade, Duda Kvitsiani, Balazs Hangya, Z. Josh Huang, Adam Kepecs|Out of the zoo? Interneuron subtypes encode specific behavioral variables in the cingulate cortex
+434|1 - Poster|Marcus Benna, Stefano Fusi|Long-term memory . . . now longer than ever
+435|1 - Poster|Tobias Teichert, Dian  Yu, Vincent Ferrera|Individual FEF neurons code both task difficulty and an internally generated error signal
+436|1 - Poster|Nathaniel Powell, Paul Schrater|Flexible probabilistic approach for measuring model learning independent of behavioral improvement.
+437|1 - Poster|Venkatakrishnan Ramaswamy, Arunava Banerjee|Connectomic Constraints on Computation in Networks of Spiking Neurons
+438|1 - Poster|Dimitri Yatsenko, Kresimir Josic, Andreas Tolias|Maximum-entropy modeling of population calcium activity in the visual cortex
+439|1 - Poster|Mingbo Cai, David Eagleman|How is duration information from multiple sensory sources combined?
+441|1 - Poster|Anirvan Nandy, Tatyana Sharpee, John Reynolds, Jude Mitchell|Toward a mechanistic description of shape-processing in area V4
+442|1 - Poster|O. Ozan Koyluoglu, Ila Fiete|Information-theoretic limits on encoding over diverse populations
+443|1 - Poster|Camille Gomez, Alexandra Smolyanskaya, Gabriel Kreiman, Richard Born|Silencing V2/V3 reduces spiking variability in MT: implications for excitatory/inhibitory balance
+445|1 - Poster|Jayram Moorkanikara Nageswaran, Micah Richert, Csaba Petre, Filip Piekniewski, Sach Sokol, Botond Szatmary, Eugene Izhikevich|A Spiking model of Superior Colliculus for Bottom-Up Saliency
+447|1 - Poster|Isao Nishikawa, Kazuyuki Aihara, Taro Toyoizumi|Signal processing in neural networks that generate or receive noise
+449|1 - Poster|Adam Calhoun, Sreekanth Chalasani, Tatyana Sharpee|Spatial learning in C. elegans
+451|1 - Poster|Guillaume Hennequin, Tim Vogels, Wulfram Gerstner|Transient collective dynamics in inhibition-stabilized motor circuits
+454|1 - Poster|Emo Todorov, Yuval Tassa, Tom Erez, Igor Mordatch, Paul Kulchenko, Vikash Kumar|Synthesis of Complex Behaviors with Optimal Control
+456|1 - Poster|Steeve Laquitaine, Justin Gardner|Humans exploit the uncertainty in priors to improve direction perception.
+458|1 - Poster|Tatiana Engel, Nicholas Steinmetz, Tirin Moore, Kwabena Boahen|Effects of attention on spatio-temporal correlations across layers of a single column in area V4
+459|1 - Poster|Marius Pachitariu, Lars Buesing, Maneesh Sahani|Recurrent generalized linear models with correlated Poisson observations
+460|1 - Poster|Yu Hu, James Trousdale, Kresimir Josic, Eric Shea-Brown|Network motifs and collective spiking in neuronal networks
+461|1 - Poster|Urs Koster, Bruno Olshausen, Christopher Hillar|Kernel regression for receptive field estimation
+462|1 - Poster|Thaddeus Czuba, Lawrence Cormack, Alexander Huk, Adam Kohn|Distinct neural selectivity for 3D directions of visual motion.
+463|1 - Poster|James McFarland, Adrian  Bondy, Bruce Cumming, Daniel Butts|Temporal windowing of stimulus processing in V1 by saccade-driven alpha oscillations
+467|1 - Poster|Arman Abrahamyan, Justin Gardner|Past failures bias human decisions
+468|1 - Poster|Neda Shahidi, Ariana Andrei, Ming Hu, Valentin Dragoi|Changes in laminar synchrony in V1 reflect perceptual decisions.
+470|1 - Poster|Ralf Haefner, Pietro Berkes, Jozsef Fiser|Perceptual decision-making in a sampling-based neural representation
+475|1 - Poster|Dustin Stansbury, Jack Gallant| Introducing MEDAL:a Matlab? Environment for Deep Architecture Learning
+477|1 - Poster|Yuval Benjamini, Julien Mairal, Ben Willmore, Michael Oliver, Jack Gallant, Bin Yu| Representation of natural images in V4 using feature invariances
+479|1 - Poster|Yashar Ahmadian, Sandro Romani, Amiram Grinvald, Misha  Tsodyks, Ken Miller|The role of adaptation in intrinsic dynamics of primary visual cortex

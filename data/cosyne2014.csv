@@ -1,0 +1,301 @@
+Paper ID|Type|Authors|Title
+1|0|Garrett Stanley, Christopher Rozell, Daniel Millard|Coding consequences of activity propagation from sensory and artificial neural stimulation.
+2|0|Aldis Weible, Alexandra Moore, Christine Liu, Michael Wehr|Auditory cortex mediates perceptual gap detection.
+3|0|Andrew Leifer, Frederick Shipley, Christopher Clark, Mark Alkema|Simultaneous optogenetic manipulation and calcium imaging in freely moving C. elegans.
+4|0|Michael Avery, Jonathan Nassi, John Reynolds|Modeling optogenetic manipulation of neural circuits in macaque visual cortex.
+5|0|James Jeanne, Rachel Wilson|Amplification of synchrony in the Drosophila antennal lobe.
+6|0|Guang-Yu Robert Yang, Hyojung Seo, Xiao-Jing Wang, Daeyeol Lee|Effects of temporal information on perceptual decision making.
+7|0|Jan Clemens, Cyrille Girardin, Pip Coen, Barry Dickson, Mala Murthy|Neural computations in the auditory system of fruit flies from sensory coding to behavior.
+8|0|Kristofer Bouchard, Jason Wittenbach, Michael Brainard, Dezhe Jin|Adaptation in an auditory-motor feedback loop contributes to generating repeated vocal sequences.
+9|0|Eduardo Izquierdo, Paul L. Williams , Randall D. Beer|Information flow through a sensorimotor circuit: Spatial orientation in C. elegans.
+10|0|Min Xu, Siyu Zhang, Yang Dan|Basal forebrain mechanisms of sleep-wake regulation.
+11|0|Dan Rokni, Vivian Hemmelder, Vikrant Kapoor, Venkatesh Murthy|An olfactory cocktail party - Detection of single odorants within mixtures in rodents.
+12|0|Wei Ji Ma, Shan Shen|Optimality, not simplicity governs visual decision-making.
+13|0|Francisco Luongo, Meryl Horn, Vikaas Sohal|Changes in prefrontal circuit organization increase repetitive network activity in models of autism.
+14|0|R Becket Ebitz, Eddy Albarran, Alireza Soltani, Tirin Moore|Attention and uncertainty during reward contingency learning.
+15|0|Nuwan de Silva, Wei Ji Ma|The optimal allocation of attentional resource.
+16|0|Mohammadjavad Faraji, Kerstin Preuschoff, Wulfram Gerstner|Surprise-based learning: neuromodulation by surprise in multi-factor-learning-rules.
+17|0|Daniel Baldauf, Robert Desimone|Neural mechanisms of object-based attention.
+18|0|Adam Gifford, Yale Cohen, Alan Stocker|Characterizing the impact of category uncertainty on human auditory categorization behavior.
+19|0|Feryal Mehraban Pour Behbahani, Aldo Faisal|Visual categorization reflects second order generative statistics.
+20|0|Thiago Gouvea, Tiago Monteiro, Joe Paton|Continuous psychometric-neurometric comparison in a perceptual decision making task.
+21|0|Kaushik Lakshminarasimhan, Sheng Liu, Eliana Klier, Yong Gu, Gregory C. DeAngelis, Xaq Pitkow, Dora E. Angelaki|Dissecting the contributions of area MSTd and VIP to heading perception.
+22|0|Tsuyoshi Nihonsugi, Masahiko Haruno|Computational model-based tDCS selectively enhances guilt-aversion based prosocial behavior.
+23|0|Gowan Tervo, Mikhail Proskurin, Maxim Manakov, Mayank Kabra, Alison Vollmer, Kristin Branson, Alla Karpova|Stochastic behavior in rats and its gating by the medial prefrontal cortex.
+24|0|Chunyu Duan, Jeffrey Erlich, Katherine Fitch, Carlos Brody|The role of rat medial prefrontal cortex and superior colliculus in a rapid rule-switching task.
+25|0|Adam Calhoun, Sreekanth Chalasani, Tatyana Sharpee|Information-theoretic basis of making decisions in the absence of new stimuli.
+26|0|Yul Kang, Michael Shadlen|Humans categorize two visual features of a single object sequentially.
+27|0|David Barack, Jean-Francois Gariepy, Michael Platt|Expected information signals in the posterior cingulate cortex.
+28|0|Ethan Bromberg-Martin, Okihide Hikosaka|Ventral pallidum neurons signal an information-induced bias in handling reward uncertainty.
+29|0|Federico Carnevale, Omri Barak, Victor de Lafuente, Ranulfo Romo, Nestor Parga|On the neural dynamics of perceptual decision-making under temporal uncertainty.
+30|0|Laurence Hunt, Ray Dolan, Timothy Behrens|Hierarchical competitions subserving multi-attribute choice.
+31|0|Nicholas Franklin, Michael Frank|A Bayesian perspective on flexibly responding to stochastic and non-stationary tasks: a role for str.
+32|0|Robbe Goris, Roozbeh Kiani|Graded representation of evidence accumulation and decision outcome in lateral intraparietal cortex.
+33|0|Kenway Louie, Ryan Webb, Paul Glimcher|Adaptive value coding and the optimality of choice.
+34|0|Paul Masset, Joshua Sanders, Justin Kinney, Adam Kepecs|An ideal observer solution for a perceptual decision making task.
+35|0|Jeffrey Cockburn, Michael Frank|Probing for patterns: Blending reward and information in a non-stationary POMDP.
+36|0|Luigi Acerbi, Sethu Vijayakumar, Daniel Wolpert|Probing the sources of suboptimality in human Bayesian inference.
+37|0|Vassilios Christopoulos, Paul Schrater|Neural computations underlying dynamic decisions with disparate value types.
+38|0|Manisha Bhardwaj, Sam Carroll, Wei Ji Ma, Kresimir Josic|Visual decisions in the presence of stimulus and measurement correlations.
+39|0|Ralf Haefner, Jozsef Fiser|Good noise or bad noise? The role of correlated variability in a probabilistic inference framework.
+40|0|Jan Drugowitsch, Valentin Wyart, Etienne Koechlin|The origin and structure of behavioral variability in perceptual decision-making.
+41|0|Yoshiaki Ko, Megan Peters, Hakwan Lau|Human intracranial electrophysiology supports a heuristic model of perceptual confidence.
+42|0|Jeff Orchard, Rafal Bogacz|Decision-making networks using spiking neurons.
+43|0|Yin Li, Matthew Nassar, Joshua Gold|Activity of the anterior and posterior cingulate cortex during adaptive learning.
+44|0|Eunjeong Lee, Moonsang Seo, Olga Dal Monte, Bruno Averbeck|Effects of D2R blockage in the dorsal striatum on perceptual inference and reinforcement learning.
+45|0|Jan Kubanek, Lawrence Snyder|Effector-specific decision-making in the parietal cortex.
+46|0|David Hawellek, Yan Wong, Bijan Pesaran|Low frequency modulation of the beta rhythm during movement selection in posterior parietal cortex.
+47|0|Rei Akaishi, Nils Kolling, Matthew Rushworth|Neural mechanism of active learning based on hypothesis testing.
+48|0|Joshua Sanders, Balazs Hangya, Adam Kepecs|The human sense of confidence obeys properties of a statistical confidence variable.
+49|0|Rodrigo Salazar, Nicolas Dotson, Charles Gray|Fronto-parietal correlated discharges vary with performance during cognitive set shifting.
+50|0|Rich Pang, Adrienne Fairhall|Data-driven algorithms for learning state dynamics in natural decision-making behaviors.
+51|0|Erez Simony, Chris Honey , Janice Chen, Uri Hasson|Uncovering stimulus-induced network dynamics during narrative comprehension.
+52|0|Helen Barron, Raymond Dolan, Timothy Behrens|Measuring memory formation in the human brain using cross stimulus suppression.
+53|0|Sam Carroll, Kresimir Josic, Zachary Kilpatrick|Encoding Certainty in Bump Attractors.
+54|0|John Murray, Nicholas Roy, Ranulfo Romo, Christos Constantinidis, Alberto Bernacchia, Xiao-Jing Wang|Stable population coding for working memory in prefrontal cortex.
+55|0|Vahid Esmaeili, Arash Fassihi, Athena Akrami, Mathew Diamond|Parametric working memory in rats: sensory vs. Prefrontal cortex.
+56|0|Alessandro Ticchi, Aldo Faisal|Bayes optimal spike adaptation predicts biophysical characteristics of neurons.
+57|0|James Kunert, Eli Shlizerman, J. Nathan Kutz|Low-dimensional functionality of connectome dynamics: Neuro-sensory integration in C. elegans.
+58|0|Marius Pachitariu, Maneesh Sahani, Nicholas Lesica|Low-dimensional dynamics underlie auditory cortex responses for different brain states and stimuli.
+59|0|Lei Jin, Bardia Behabadi, Bartlett W. Mel|The dimensionality of dendritic computation.
+60|0|Shamim Nemati, Scott Linderman, Zhe Chen|A probabilistic modeling approach for uncovering neural population rotational dynamics.
+61|0|Wieland Brendel, Dmitry Kobak, Ranulfo Romo, Claudia Feierstein, Zachary Mainen, Christian Machens|Orthogonal representation of tasks parameters in higher cortical areas.
+62|0|Benjamin Cowley, Matt Smith, Adam Kohn, Byron Yu|Co-fluctuation patterns of population activity in macaque primary visual cortex.
+63|0|Ryan Rowekamp, Tatyana Sharpee|Neurons in V4 show quadrature pair selectivity along curved contours.
+64|0|Johnatan Aljadeff, Merav Stern, Tatyana Sharpee|Transition to chaos in heterogeneous networks.
+65|0|Miha Pelko, Daniel Harnack, Antoine Chaillet, Yacine Chitour, Mark van Rossum|Stability of neuronal networks with homeostatic regulation.
+66|0|Daniel Leeds, John Pyles, Michael Tarr|Evidence towards surround suppression in perception of complex visual properties.
+67|0|Guillaume Lajoie, Jean-Philippe Thivierge, Eric Shea-Brown|Structured chaos shapes population noise entropy in driven balanced networks.
+68|0|Srinivas Turaga, Lars Buesing, Adam Packer, Henry Dalgleish, Noah Pettit, Michael Hausser, Jakob Macke|Predicting noise correlations for non-simultaneously measured neuron pairs.
+69|0|Sarah Marzen, Michael DeWeese, Jim Crutchfield|Statistical complexity of neural spike trains.
+70|0|Satohiro Tajima, Taro Toyoizumi|Neuroembedology: dynamical relation reflects network structures.
+71|0|Ramakrishnan Iyer, Nicholas Cain, Stefan Mihalas|Dynamics of excitatory-inhibitory neuronal networks with exponential synaptic weight distributions.
+72|0|Veronika Koren, Sophie Deneve, David Barrett|Predictive coding in active and quiescent states.
+73|0|Farzad Farkhooi, Carl van Vreeswijk|A novel point process approach to the stability analysis of spiking recurrent networks.
+74|0|Cliff Kerr, Marius Pachitariu, Jordan Iordanou, Joseph Francis, Maneesh Sahani, William Lytton|Low-dimensional dynamics of somatosensory cortex: experiment and simulation.
+75|0|Sridevi Sarma, Duluxan Sritharan|On the brink of instability: network fragility in the epileptic cortex.
+76|0|Stefan Berteau|Alpha coherence networks and the prerequisites for communication in simulated cortex.
+77|0|Yashar Ahmadian, Kenneth Miller|Contextual influences on gamma oscillations in inhibition stabilized networks.
+78|0|Leandro Alonso, Alex Proekt, Guillermo Cecchi, Marcelo Magnasco|Dynamical criticality during Induction of anesthesia in human ECoG recordings.
+79|0|Neil Rabinowitz, Robbe Goris, Johannes Balle, Eero Simoncelli|Modeling neural responses in the presence of unknown modulatory inputs.
+80|0|Rishidev Chaudhuri, Biyu He, Xiao-Jing Wang|The temporal structure of a random network near criticality and human ECoG dynamics.
+81|0|Xaq Pitkow, Kaushik Lakshminarasimhan, Alexandre Pouget|How brain areas can predict behavior, yet have no influence.
+82|0|David Sussillo, Omri Barak|Opening the black box: understanding how recurrent neural networks compute.
+83|0|Daniel Marti, Nicolas Brunel, Srdjan Ostojic|Dynamics of networks of excitatory and inhibitory units with sparse, partially symmetric couplings.
+84|0|Yann Sweeney, Jeanette Hellgren Kotaleski, Matthias Hennig|Volume transmission as a new homeostatic mechanism.
+85|0|Moritz Deger, Tilo Schwalger, Richard Naud, Wulfram Gerstner|Network dynamics of spiking neurons with adaptation.
+86|0|Tim Vogels, Christian Tomm, Michael Avermann, Carl Petersen, Wulfram Gerstner|Connection-type specific biases make random network models consistent with cortical recordings.
+87|0|Mate Lengyel, Guillaume Hennequin, Laurence Aitchison|Fast sampling in recurrent neural circuits.
+88|0|Daniel Miner, Jochen Triesch|Relating synaptic efficacies and neuronal separation in a simulated layer 2/3 cortical network.
+89|0|Alan Veliz-Cuba, Zachary Kilpatrick, Kresimir Josic|Encoding and learning the timing of events in neural networks.
+90|0|Jascha Sohl-Dickstein, Niru Maheswaranathan, Benjamin Poole, Surya Ganguli|Efficient fitting of large-scale neural models.
+91|0|Benjamin Poole, Jascha Sohl-Dickstein, Surya Ganguli|Effects of noise injection in artificial neural networks.
+92|0|Robert Guetig|Unsupervised emergence of continuous tuning curves and sensory maps in spiking neural networks.
+93|0|Friedemann Zenke, Everton Agnes, Wulfram Gerstner|Learning multi-stability in plastic neural networks.
+94|0|Naoki Hiratani, Tomoki Fukai|Interplay between short- and long-term plasticity in cell-assembly formation.
+95|0|Christopher Hillar, Sarah Marzen, Urs Koester, Kilian Koepsell|A Hopfield net trained on images matches retinal spike statistics and encodes images efficiently.
+96|0|Timothy O'Leary, Eve Marder|One rule to grow them all? Activity-dependent regulation for robust neural circuit specification.
+97|0|Guillaume Hennequin, Mate Lengyel|The dynamics of variability in nonlinear recurrent circuits.
+98|0|Julia Hillmann, Robert Guetig|Specialization within populations of neural feature detectors.
+99|0|Felix Bauer, Matthias Kaschube|Role of long-range horizontal connections in visual texture classification.
+100|0|Michael Buice, Nicholas Cain, Ramakrishnan Iyer, Mike Hawrylycz, Stefan Mihalas|The brain as social network: self-organization of a dynamic connectome.
+101|0|Jeremie Barral, Tatjana Tchumatchenko, Alexander Reyes|Examining signal and noise correlation in a recurrent network of neurons in culture.
+102|0|Shan Yu, Andreas Klaus, Hongdian Yang, Dietmar Plenz|Local feed-forward dynamics of scale-invariant neuronal avalanches.
+103|0|Jesus Manrique, Nestor Parga|Decorrelation in networks of spiking neurons: from microscopic to macroscopic magnitudes.
+104|0|Jozsef Fiser, Benjamin White|Learning-based crossmodal suppression of ongoing activity in primary cortical areas of the awake rat.
+105|0|Yu Hu, Joel Zylberberg, Eric Shea-Brown|The sign rule and beyond: boundary effects, flexibility, and noise correlations in population codes.
+106|0|Ingmar Kanitscheider, Ruben Coen-Cagli, Alexandre Pouget|Noise correlations induced by computation.
+107|0|Yazan Billeh, Michael T Schaub, Costas A Anastassiou, Mauricio Barahona, Christof Koch|Biophysically inspired cell assembly detection at multiple scales.
+108|0|Audrey Sederberg, Stephanie Palmer, Jason MacLean|Decoding thalamic inputs from cortical activity.
+109|0|Vladimir Itskov, Carina Curto, Eva Pastalkova, Chad Giusti|Topological analysis of hippocampal correlations reveals non-random, low-dimensional clique topology.
+110|0|Joel Zylberberg, Maxwell Turner, Jon Cafaro, Fred Rieke, Eric Shea-Brown|A novel rate-correlation relationship might significantly improve population coding in retina.
+111|0|Sanjeev Khanna, Adam Snyder, Matt Smith|Structure of neuronal correlation during eye movement planning in FEF.
+112|0|Adam Snyder, Cory Willis, Matt Smith|Spike count correlation relates to the phase and amplitude of EEG oscillations measured at the scalp.
+113|0|Jerome Tubiana, Zhuo Wang, Daniel Lee, Haim Sompolinsky|Efficient coding theory in nonlinear networks with noise.
+114|0|Wentao Huang, Kechen Zhang|Determining the optimal distributions of neural population codes.
+115|0|Alfred Kaye, Edward Callaway, Tatyana Sharpee|Transformation of optimal motion encoding in the mouse early visual system.
+116|0|HaDi MaBouDi, Hideaki Shimazaki, Mehdi Abouzari, Shun-ichi Amari, Hamid Soltanian-Zadeh|Statistical inference for directed phase coupling in neural oscillators.
+117|0|Dmitry Lyamzin, Samuel Barnes, Tara Keck, Nicholas Lesica|Nonlinear transfer of signal and noise correlations in cortical networks.
+118|0|June Hoan Kim, Ryoun Heo, Joon Ho Choi, Kyoung Lee|Existence of multiple bursting oscillators in cultured neural network and transitions among them.
+119|0|Clarissa Shephard, Christian Waiblinger, Cornelius Schwarz, Garrett Stanley|Extracting a signal in noise: Effect of bursts and tonic spikes on detection and discriminability.
+120|0|Wasim Malik, John Donoghue, Leigh Hochberg|Decoding analog multiunit activity in a brain-machine interface for individuals with tetraplegia.
+121|0|Marino Pagan, Eero Simoncelli, Nicole Rust|Maximum Variance Differentiation (MVD) explains the transformation from IT to Perirhinal cortex.
+122|0|Michael Schwemmer, Sophie Deneve, Eric Shea-Brown, Adrienne Fairhall|Predictive coding with hodgkin-huxley-type neurons.
+123|0|David Schwab, Ilya Nemenman, Pankaj Mehta|Zipf's law and criticality in multivariate data without fine-tuning.
+124|0|Bas van Opheusden, Gasper Tkacik, Olivier Marre, Michael Berry|Heaps' law as a tuning principle for retinal population codes.
+125|0|Rainer Engelken, Michael Monteforte, Fred Wolf|Fast population coding in recurrent networks: single cell vs. network mechanisms.
+126|0|Emin Orhan, Wei Ji Ma|Neural population coding of multiple stimuli.
+127|0|Leon Gatys, Alexander Ecker, Tatjana Tchumatchenko, Matthias Bethge|How much signal is there in the noise?
+128|0|Douglas Ruff, David H Brainard, Marlene Cohen|Neuronal population decoding can account for perceptual lightness illusions.
+129|0|Ann Hermundstad, Olivier Marre, Stephanie Palmer, Michael Berry, Gasper Tkacik, Vijay Balasubramanian|Adaptation of intrinsic circuit correlations and synergy in retinal synchrony.
+130|0|Francesca Pizzorni-Ferrarese, Jonas Larsson|A data-driven model-free population receptive field estimation framework.
+131|0|Mark Ioffe, Gasper Tkacik, William Bialek, Michael Berry|Robustness of criticality under different stimulus conditions.
+132|0|Sahar Pirmoradian, Gerrit Hilgen, Oliver Muthman, Alessandro Maccione, Upinder Bhalla, Luca Berdonini, Evelyne Sernagor, Matthias Hennig|Mapping large scale retinal population activity with high density multielectrode arrays.
+133|0|Laurence Aitchison, Nicola Corradi, Peter Latham|Latent variable models (almost) always display signatures of criticality.
+134|0|Kanaka Rajan, Christopher Harvey, David Tank|Generation of sequences through reconfiguration of ongoing activity in neural networks: A model of c.
+135|0|Corinne Teeter, Christof Koch, Stefan Mihalas|A method for fitting linear neural models to extracellular electrophysiology data.
+136|0|Ian Oldenburg, Bernardo Sabatini|Direct and indirect pathways of the basal ganglia exert opposing but not identical control of motor.
+137|0|TJ Florence, Charles Zuker, Michael Reiser|Spatial learning by Drosophila melanogaster in virtual reality.
+138|0|Alexander Keinath, Joshua Dudman, Isabel Muzzio|Redundant hippocampal spatial coding offsets competition between interference and generalization.
+139|0|Katie Bittner, Jeffrey Magee|Phase comparison of functionally distinct inputs in CA1 pyramidal cells during locomotion.
+140|0|Ann Kennedy, Peter Wang, Daisuke Hattori, Richard Axel, L.F. Abbott|Representation and generalization in Drosophila olfactory learning.
+141|0|Kamesh Krishnamurthy, Ann Hermundstad, Thierry Mora, Aleksandra Walczak, Venkatesh Murthy, Charles Stevens, Vijay Balasubramanian|The functional role of randomness in olfactory processing.
+142|0|Gonzalo Otazu, Hong Goo Chae, Dinu Albeanu|Two types of representation of sensory information in cortical feedback axons in awake mice.
+143|0|Arkarup Bandyopadhyay, Fred Marbach, Francesca Anselmi, Matthew Koh, Martin B. Davis, Hassana K. Oyibo, Priyanka Gupta, Dinu Albeanu|Long-distance inhibition by short axon cells gate the output of the olfactory bulb.
+144|0|Wiktor Mlynarski|Learning hierarchical representations of natural auditory scenes.
+145|0|Izzet Yildiz, Brian Fischer , Sophie Deneve|Invariant selectivity of auditory neurons due to predictive coding.
+146|0|Vincent ADAM, Maneesh Sahani|Bayesian perception of the pitch of non-stationary natural sounds.
+147|0|Phillip Schafer, Dezhe Jin|Learning noise-invariant auditory receptive fields for speech recognition.
+148|0|Liberty Hamilton, Jascha Sohl-Dickstein, Shaowen Bao|Sensitive periods for functional connectivity in auditory cortical circuits.
+149|0|Mike Schachter, Tyler Lee, Julie Elie, Friedrich Sommer, Frederic Theunissen|Population coding of complex sounds in the avian auditory system.
+150|0|Isaac Carruthers, Ryan Natan, Andrew Jaegle, Laetitia Mwilambwe-Tshilobo, Diego Laplagne, Maria Geffen|Changes in encoding of communication signals by populations of neurons in the auditory cortex.
+151|0|Samuel Norman-Haignere, Joshua McDermott, Nancy Kanwisher|Clustering of cortical responses to natural sounds reveals organization for pitch and speech.
+152|0|Allison Baker, Alex Vaughan, Bruce Baker, Rachel Wilson|Characterizing central auditory neurons in Drosophila.
+153|0|Michael Kyweriga, Whitney Stewart, Carolyn Cahill, Michael Wehr|Synaptic computation of interaural level differences in rat auditory cortex.
+154|0|HyungGoo Kim, Xaq Pitkow, Ryo Sasaki, Dora E. Angelaki, Gregory C. DeAngelis|Near-optimallinear decoding for marginalization: application to heading estimation.
+155|0|Nader Nikbakht, Azadeh Tafreshiha, Rodrigo Q. Quiroga, Davide Zoccolan, Mathew Diamond|Integration of visual and tactile signals in behaving rats.
+156|0|Johannes Burge, Brian McCann, Wilson Geisler|3D surface tilt estimation in natural scenes from image cue gradients.
+157|0|Stephanie Palmer, Jared Salisbury, Heather Yee, Hanna Torrence, Don Ho, David Schwab|A new database for natural motion: movie data and analysis of natural motion statistics.
+158|0|Emmanouil Froudarakis, Philipp Berens, R. James Cotton, Alexander Ecker, Fabian H. Sinz, Dimitri Yatsenko, Peter Saggau, Matthias Bethge, Andreas S. Tolias|Higher-order stimulus correlations drive a sparse representation in mouse V1 well-suited for discrim.
+159|0|Alexander Heitman, Martin Greschner, Greg Field, Peter Li, Daniel Ahn, Alexander Sher, Alan Litke, E. J. Chichilnisky|Representation and reconstruction of natural scenes in the primate retina.
+160|0|Maximilian Joesch, Markus Meister|A selective color-opponent pathway in the mouse retina.
+161|0|Avner Wallach, Knarik Bagdasarian, Ehud Ahissar|Early representations of whisker self-motion revealed using closed-loop control in anesthetized rats.
+162|0|Oh-sang Kwon, Duje Tadin, David Knill|An optimal object-tracking model provides a unifying account of motion and position perception.
+163|0|David Reichert, Thomas Serre|Binding by synchrony in complex-valued deep neural networks.
+164|0|James Fitzgerald, Damon Clark|Interplay between sensory statistics and neural circuit constraints in visual motion estimation.
+165|0|Timothy Oleskiw, Amy Nowack, Anitha Pasupathy|Selectivity for shape and blur in area V4.
+166|0|Ethan Meyers, Mia Borzello, Winrich Freiwald, Doris Tsao|Decoding what types of information are in the macaque face patch system.
+167|0|Tao Hu, Dmitri Chklovskii|Efficient coding can account for the existence of sustained and transient bipolar cell types.
+168|0|Daniel Coca, Carlos Luna Ortiz, Stephen Billings, Mikko Juusola|Characterizing retinal network adaptation in Drosophila using models of mean and contrast adaptation.
+169|0|Ha Hong, Daniel Yamins, Najib Majaj, James DiCarlo|It cortex contains a general-purpose visual object representation.
+170|0|Ivo Vanzetta, Maria Bermudez, Thomas Deneux, Frederic Barthelemy, Guillaume Masson|Interaction of color, motion and contrast in macaque V4 population activity and behavior.
+171|0|Eyal Nitzany, Gil Menda, Paul Shamble, James Golden, Ron Hoy, Jonathan Victor|Evolutionary convergence in computation of local motion signals in monkey and dragonfly.
+172|0|Mor Ben-Tov, Opher Donchin, Ohad Ben-Shahar, Ronen Segev|Pop-out visual search of moving targets in the archer fish.
+173|0|Mijung Park, Jonathan Pillow|Bayesian inference for low rank receptive fields.
+174|0|Chou Hung, Chang Mao Chao, Li-feng Yeh, Yueh-peng Chen, Chia-pei Lin, Yu-chun Hsu|Lateral feature-level interactions in anterior visual cortex of monkeys and humans.
+175|0|Darren Seibert, Daniel Yamins, Ha Hong, James DiCarlo, Justin Gardner|Quantifying and modeling the emergence of object recognition in the ventral stream.
+176|0|Michael Oliver, Jack Gallant|Using deep networks to learn non-linear receptive field models of V2 neurons.
+177|0|Haruo Hosoya, Aapo Hyvarinen|Four-layer sparse coding model of natural images that reproduces tuning properties in V1, V2 and V4.
+178|0|Dimitri Yatsenko, Kresimir Josic, Alexander Ecker, Emmanouil Froudarakis, R. James Cotton, Andreas S. Tolias|Low-dimensional structure of neural correlations in cortical microcircuits.
+179|0|Chris Lewis, Conrado Bosman, Thilo Womelsdorf, Pascal Fries|Intrinsic networks in visual cortex are mediated by local and inter-areal rhythmic synchronization.
+180|0|Grant Mulliken, Robert Desimone|Spectral noise shaping: a multipurpose coding strategy in dorsal and ventral visual pathways.
+181|0|Maneesh Sahani, Marius Pachitariu, Adil Khan, Jasper Poort, Ivana Orsolic, Georg Keller, Sonja Hofer, Thomas Mrsic-Flogel|Spatiotemporal integration of optic flow and running speed in V1.
+182|0|Jasper Poort, Adil Khan, Marius Pachitariu, Abdellatif Nemri, Ivana Orsolic, Julija Krupic, Marius Bauza, Georg Keller, Maneesh Sahani, Thomas Mrsic-Flogel, Sonja Hofer|Learning related changes of stimulus representations in mouse visual cortex.
+183|0|Philipp Rudiger, Jean-Luc Stevens, Bharath Chandra Talluri, Laurent Perrinet, James Bednar|Relationship between natural image statistics and lateral connectivity in the primary visual cortex.
+184|0|Manuel Schottdorf, Stephen J. Eglen, Fred Wolf, Wolfgang Keil|Can retinal ganglion cell dipoles seed iso-orientation domains in the visual cortex?
+185|0|Jens Kremkow, Jianzhong Jin, Stanley J Komban, Yushi Wang, Reza Lashgari, Jose-Manuel Alonso|Cortical maps of ON and OFF visual responses are the substrate of the cortical orientation map.
+186|0|Maryam Bijanzadeh, Lauri Nurminen , Jennifer Ichida, Sam Merlin , Kenneth Miller, Alessandra Angelucci|V1 laminar-specific activity patterns evoked by receptive field, near and far surround stimulation.
+187|0|Jason Samonds, Brian Potetz, Christopher Tyler, Tai Sing Lee|Stereoscopic surface disambiguation and interpolation in the macaque primary visual cortex.
+188|0|Jungwon Ryu, Sang-Hun Lee|Visuotopic anisotropy in functional connectivity among local cortical sites in human visual areas.
+189|0|William Podlaski, Rajnish Ranjan, Alexander Seeholzer, Henry Markram, Wulfram Gerstner, Tim Vogels|Visualizing the similarity and pedigree of neuronal ion channel models for NEURON.
+190|0|Edward Frady, William Kristan|Scalable semi-supervised framework for activity mapping of the leech nervous system.
+191|0|Tim Bellay, Andreas Klaus, Saurav Seshadri, Dietmar Plenz|The cellular origin of neuronal avalanches.
+192|0|Brendan Chambers, Alexander Sadovsky, Jason MacLean|Microcircuit activity is patterned topologically and reveals features of underlying connectivity.
+193|0|David Pfau, Jeremy Freeman, Misha Ahrens, Liam Paninski|Scalable ROI detection for calcium imaging.
+194|0|Tamara Berdyyeva, Stephani Otte, Leah Aluisio, Laurie Burns, Yaniv Ziv, Christine Dugovic, Kunal Gosh, Mark J Schnitzer, Tim Lovenberg, Pascal Bonaventure|Investigating mechanisms of drug action at the hippocampal ensemble level in behaving mice.
+195|0|Maureen Hagan, Bijan Pesaran|Phase coding in posterior parietal cortex predicts neural suppression in a gaze-anchoring task.
+196|0|Alexandra Moore, Michael Wehr|PV+ inhibition regulates feedforward activity in auditory cortex.
+197|0|Tobias Teichert, Vincent Ferrera|Observing the unobservable: a note on stop-signal reaction-time distributions.
+198|0|Ofri Raviv, Yonatan Loewenstein, Merav Ahissar|A simplified Bayesian model accounts for procedure-related variability in perceptual thresholds.
+199|0|Kathryn Bonnen, Johannes Burge, Jacob L Yates, Jonathan Pillow, Lawrence K Cormack|A behavioral tracking paradigm for estimating visual sensitivity with dynamic internal models.
+200|0|Josh Merel, Antony Qian, Roy Fox, Liam Paninski|Modeling and exploiting co-adaptation in brain-computer interfaces.
+201|0|Yi Li, Joshua Dudman|Behavioral and neural evidence that mice infer probabilistic models for timing.
+202|0|Ashwin Ramayya, Ashwini Sharan, James Evans, Michael Sperling, Timothy Lucas, Michael Kahana|High-frequency activity in the medial orbitofrontal cortex encodes positive outcomes.
+203|0|Saurav Seshadri, Tim Bellay, Samantha Chou, Dietmar Plenz|Altered neuronal avalanches at the population and cell level in a rat model of schizophrenia.
+204|0|Tatjana Wiese, Marlene Cohen, Brent Doiron|Modeling attention-induced drop of noise correlations by inhibitory feedback.
+205|0|Lei Jin, Bartlett W. Mel|A single net excitation strength measure broadens the scope of the 2-layer model.
+206|0|Evan Archer, Jonathan Pillow, Jakob Macke|Low-dimensional models of neural population recordings with complex stimulus selectivity.
+207|0|Il Memming Park, Evan Archer, Kenneth Latimer, Jonathan Pillow|Scalable nonparametric models for binary spike patterns.
+208|0|Sabato Santaniello, Erwin B. Montgomery, John T. Gale, Sridevi Sarma|High frequency deep brain stimulation elicits neural restoration via loop-based reinforcement.
+209|0|Tilo Schwalger, Benjamin Lindner|Theory for the firing statistics of neurons driven by non-Poissonian synaptic input.
+210|0|Jason Prentice, Olivier Marre, Mark Ioffe, Gasper Tkacik, Michael Berry|Error correction in the retinal population code.
+211|0|I-Chun Lin, Michael Okun, Matteo Carandini, Kenneth Harris|The nature of cortical variability.
+212|0|Julie Elie, Frederic Theunissen|From sounds to meaning: neural representation of calls in the avian auditory cortex.
+213|0|Israel Nelken, Leila Khouri, Bshara Awwad, Itai Hershenhoren, Amit Yaron, Tohar Yarden|Stimulus-specific adaptation in the auditory system & models and data
+214|0|Richard Naud, Dave Houtman, Gary Rose, Andre Longtin|Modeling sound pulse counting with phasic inhibition and nonlinear integration.
+215|0|Arjun Bharioke, Dmitri Chklovskii|How do insects see motion? Using connectomics, physiology and behavior to constrain possible models.
+216|0|Daniel Yamins, Ha Hong, Darren Seibert, James DiCarlo|Predicting IT and V4 neural responses with performance-optimized neural networks.
+217|0|Michoel Snow, Ruben Coen-Cagli, Odelia Schwartz|Adaptation in V1 populations reflects optimal inference of natural movie statistics.
+218|0|Urs Koester, Bruno Olshausen|Heisenberg: a tool for mapping complex cell receptive fields.
+219|0|Ali Neishabouri, Aldo Faisal|Are spikes unitary signals? How axonal noise produces synaptic variability.
+220|0|Guillaume Dehaene, Jeffrey Beck, Alexandre Pouget|Optimal population codes with limited input information have finite tuning-curve widths.
+221|0|David Barrett, Sophie Deneve, Christian Machens|Optimal compensation for neuron death.
+222|0|Julijana Gjorgjieva, Markus Meister, Haim Sompolinsky|Optimal sensory coding by populations of ON and OFF neurons.
+223|0|Zhuo Wang, Alan Stocker, Daniel Lee|Distinguishing different efficient coding principles from tuning curve statistics.
+224|0|David Kastner, Stephen Baccus, Tatyana Sharpee|Second order phase transition describes maximally informative encoding in the retina.
+225|0|Bingni Brunton, Annika Eberle, Bradley Dickerson, Steven Brunton, J. Nathan Kutz, Tom Daniel|Sensor placement for sparse sensory decision-making.
+226|0|Christopher Buckley, Taro Toyoizumi|The role of environmental feedback in transitions from passive to active brain processing.
+227|0|Caitlyn Parmelee, Carina Curto|Calcium-dependence of vesicle replenishment at photoreceptor synapses.
+228|0|Pavan Ramkumar, Brian Dekleva, Paul Wanda, Hugo Fernandes, Lee Miller, Konrad Koerding|Uncertainty modulates timing of neural interaction in PMd during reach planning.
+229|0|Alyson Fletcher, Sundeep Rangan|Bayesian inference of neural connectivity via approximate message passing.
+230|0|Yuriy Mishchenko|Reconstructing functional connectivity in complete neural population by randomized sparse sampling.
+231|0|Nisheeth Srivastava, Paul Schrater|Classical conditioning via inference over observable situation contexts.
+232|0|Madhu Advani, Surya Ganguli|Tractable, optimal high dimensional Bayesian inference.
+233|0|Simone Carlo Surace, Jean-Pascal Pfister|Short-term facilitation as a normative consequence of presynaptic spike-rate adaptation.
+234|0|Dane Corneil, Emre Neftci, Giacomo Indiveri, Michael Pfeiffer|Learning, inference, and replay of hidden state sequences in recurrent spiking neural networks.
+235|0|Lars Buesing|Unsupervised identification of excitatory and inhibitory populations from multi-cell recordings.
+236|0|Megan Peters, Ladan Shams|The size-weight illusion is not anti-Bayesian after all.
+237|0|Matthias Kummerer, Matthias Bethge|How well can saliency maps tell where people look.
+238|0|Agnieszka Grabska-Barwinska, Peter Latham|Sampling orientations at different contrasts.
+239|0|Eftychios Pnevmatikakis, Josh Merel, Liam Paninski|Sampling methods for spike inference from calcium imaging data.
+240|0|Christian Albers, Maren Westkott, Klaus Pawelzik|Predictive balance of cortical membrane potentials by STDP of inhibition.
+241|0|Pavel Sanda, Tiffany Kee, Nitin Gupta, Mark Stopfer, Maxim Bazhenov|Comparing roles of feedback and feedforward inhibition in sparsening of sensory codes.
+242|0|Jason Fleischer|Persistent activity through multiple mechanisms in a spiking network that solves DMS tasks.
+243|0|Claudia Clopath, Tatjana Tchumatchenko|Oscillations emerging from noise-driven networks with electrical synapses and subthreshold resonance.
+244|0|Erik Nygren, Robert Urbanczik, Walter Senn|Self-supervised learning of neural integrator networks.
+245|0|Christian Pozzorini, Skander Mensi, Oliver Hagens, Wulfram Gerstner|Nonlinear threshold dynamics implements multiplicative adaptation in pyramidal neurons.
+246|0|Julie Haas, Joe Brague, Jessica Sevetson|Asymmetry of electrical synapses: measurement and impact in small networks.
+247|0|Robert Rosenbaum, Jonathan Rubin, Brent Doiron|Balanced networks in space.
+248|0|Dmitri Chklovskii, Tao Hu|Derivation of leaky integrate-and-fire and STDP from a signal processing cost function.
+249|0|Aditya Gilra, Upinder Bhalla|Summation and phase decorrelation of odor responses in an olfactory bulb microcircuit model.
+250|0|Merav Stern, L.F. Abbott, Kevin M. Franks|Dynamics of olfactory bulb output generates concentration-invariant cortical odor representations.
+251|0|Kenneth Latimer, E. J. Chichilnisky, Fred Rieke, Jonathan Pillow|Inferring synaptic conductances from spike trains with a point process encoding model.
+252|0|Philip Meier, Dimitry Fisher, Jayram Moorkanikara Nageswaran, Botond Szatmary, Eugene Izhikevich|Emergent connectivity in a spiking model of visual cortex with attentional feedback.
+253|0|Kendra Burbank|A spiking neural network for autoencoder learning.
+254|0|Christian Meisel, Andreas Klaus, Christian Kuehn, Dietmar Plenz|Evidence for critical slowing down in neurons near spiking threshold.
+255|0|Felix Effenberger, Anna Levina, Jurgen Jost|Self-organization in balanced state networks by STDP and homeostatic plasticity.
+256|0|Joachim Hass, Loreen Hertaeg, Tatiana Golovko, Daniel Durstewitz|Predicting in vivo statistics from in vitro cell parameters in a detailed prefrontal cortex model.
+257|0|Brian DePasquale, Mark Churchland, L.F. Abbott|Firing-rate dynamics from spiking network models with low-rank connectivity.
+258|0|Mehrab Modi, Ashesh Dhawale, Upinder Bhalla|CA1 activity sequences emerge after reorganization of network correlation structure during learning.
+259|0|Alireza Alemi-Neissi, Carlo Baldassi, Nicolas Brunel, Riccardo Zecchina|Input-driven unsupervised learning in recurrent neural networks.
+260|0|Thomas Miconi, Jedediah Singer, Gabriel Kreiman|Normalized Hebbian learning develops both simple and complex receptive fields from naturalistic vide.
+261|0|Cengiz Pehlevan, Tao Hu, Zaid J. Towfic, Dmitri Chklovskii|A normative framework of single-neuron computation yields Oja-like learning with realistic features.
+262|0|Jonathan Cannon, Jeffrey Markowitz, Nancy Kopell, Timothy Gardner|Sequence generation by spatio-temporal cycles of inhibition.
+263|0|He Zheng, Douglas Ollerenshaw, Daniel Millard, Qi Wang, Garrett Stanley|Adaptive shaping of feature selectivity in the awake rodent vibrissa system.
+264|0|Michael Carlin, Mounya Elhilali|Computational model of optimal changes in auditory cortical receptive fields during behavioral tasks.
+265|0|Dylan Festa, Guillaume Hennequin, Mate Lengyel|Graded memories in balanced attractor networks.
+266|0|Sang Wan Lee, John O'Doherty, Shinsuke Shimojo|Interplay between learning-rate control and uncertainty minimization during one-shot causal learning.
+267|0|Gabriel Ocker, Ashok Litwin-Kumar, Brent Doiron|A self-consistent theory for STDP and spiking correlations in neuronal networks.
+268|0|Cian O'Donnell, Terrence Sejnowski|Generalization of memories by spatial patterning of protein synthesis.
+269|0|Balazs Ujfalussy, Mate Lengyel|A normative theory of structural and intrinsic plasticity in dendrites.
+270|0|Thomas Chartrand, Grace Q. Zhao, Jennifer L. Raymond, Mark Goldman|Contribution of cerebellar Golgi cells to learned motor timing during the vestibulo-ocular reflex.
+271|0|Sergio Verduzco-Flores|Stochastic synchronization in the Purkinje cells of the cerebellum.
+272|0|Gautam Agarwal, Kenji Mizuseki, Antal Berenyi, Gyorgy Buzsaki, Friedrich Sommer|Two forms of information found in local field potentials of the hippocampus.
+273|0|Juan Ramirez-Villegas, Nikos Logothetis, Michel Besserve|Cluster analysis of sharp-wave ripple field potential signatures in the macaque hippocampus.
+274|0|Nikos Gekas, Aaron Seitz, Peggy Series|Priors formed over multiple time scales facilitate performance in a visual search task.
+275|0|Kevin Miller, Jeffrey Erlich, Charles Kopec, Matthew Botvinick, Carlos Brody|A multi-step decision task elicits planning behavior in rats.
+276|0|Erie Boorman, Vani Rajendran, Timothy Behrens|Dissociable systems for reward and content updating revealed using cross stimulus suppression.
+277|0|Anne Collins, James Gold, James Waltz, Michael Frank|Working memory contributions to reinforcement learning impairments in schizophrenia.
+278|0|Giancarlo La Camera, Robert Urbanczik, Walter Senn|Temporal stimulus segmentation and decision making via spike-based reinforcement learning.
+279|0|David Arkadir , Angela Radulescu, Deborah Raymond, Susan Bressman , Pietro Mazzoni, Yael Niv|A link between corticostriatal plasticity and risk taking in humans.
+280|0|Anja T. Zai, Florian Blattler, Anna E. Stepien, Alessandro Canopoli, Richard H.R. Hahnloser|Kalman filter modeling of reinforced behavior: Application to pitch and tempo learning in songbirds.
+281|0|Ju Tian, Naoshige Uchida|A role for habenula in dopamine neurons' responses to reward omission.
+282|0|Eran Eldar, Yael Niv|The interaction between learning and mood.
+283|0|Theresa Desrochers, Ken-ichi Amemori, Ann Graybiel|Striatal neuronal activity of macaque tracks local and global changes during natural habit formation.
+284|0|Naoto Yukinawa, Kenji Doya, Junichiro Yoshimoto|A signal transduction model for adenosine-induced indirect corticostriatal plasticity.
+285|0|Daria Rylkova, Zengyou Ye, David Linden|In vivo two-photon imaging of cortico-cerebellar mossy fiber synapses: functional properties.
+286|0|Leslie Osborne, Bing Liu|Efficient coding of visual motion signals in the smooth pursuit system.
+287|0|Chethan Pandarinath, Vikash Gilja, Christine Blabe, Leigh Hochberg, Krishna Shenoy, Jaimie Henderson|Corresponding neural signatures of movement and imagined movement in human motor cortex.
+288|0|Alexander Katsov, Cornelia Bargmann|Towards mapping the genesis of behavior in a complete nervous system.
+289|0|Claire Tang, Kyle Srivastava, Diala Chehayeb, Ilya Nemenman, Samuel Sober|Precise temporal encoding in a vocal motor system.
+290|0|Hagai Lalazar, L.F. Abbott, Eilon Vaadia|Conserved and independent population activity between arm and Brain-Machine Interface control.
+291|0|Ryu Ohata, Kenji Ogawa, Hiroshi Imamizu|Single-trial prediction of slow or fast reaction from MEG brain activity before movement.
+292|0|Benjamin Wellner, Steve Suway, Hans Scherberger|Neuronal network dynamics within and between frontal and parietal cortex in the monkey.
+293|0|Tomislav Milekovic, Beata Jarosiewicz, Anish Sarma, Leigh Hochberg, John Donoghue|Motor intention is marked by LFP beta amplitude suppression in a person with paralysis using a BCI.
+294|0|Ana Amador, Yonatan Sanz Perl, Gabriel B. Mindlin, Daniel Margoliash|Unveiling neural code with a low dimensional model of birdsong production.
+295|0|Claudia Feierstein, Ruben Portugues, Florian Engert, Michael Orger|Stereotyped, distributed networks revealed by whole-brain activity maps in behaving zebrafish.
+296|0|Adina Drumea, Mathew Diamond|How do rats and humans use sensory information to time their actions?
+297|0|Anmo Kim, Gaby Maimon|Dynamic motor-related input to visual interneurons in Drosophila.
+298|0|Katherine Ames, Krishna Shenoy|Motor cortical activity predicts behavioral corrections following last-minute goal changes.
+299|0|Robert Rasmussen, Andrew Schwartz, Steven Chase|Dynamic range adaptation in motor cortical neurons.
+300|0|Daniel O'Shea, Werapong Goo, Paul Kalanithi, Ilka Diester, Karl Deisseroth, Krishna Shenoy|Pushing in the wrong direction: optogenetic perturbation misaligns with motor cortical dynamics.

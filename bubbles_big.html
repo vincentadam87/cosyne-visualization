@@ -59,15 +59,47 @@ var svg = d3.select("#svgid").append("svg")
     .attr("height", diameter)
     .attr("class", "bubble");
 
-	
 
-var ttt; // a global
-var uuu;
+
+var datajson; // a global
+var names;
+var count;
+var data;
+
+$.getJSON("poster_count_big.json", function(mydata) {
+    console.log(data);
+    // data is a JavaScript object now. Handle it as such
+    alert(mydata)
+    alert(mydata.names)
+    names = mydata.names;
+    count = mydata.count;
+    data = [names,count]
+    alert(data)
+    console.warn('data')
+
+});
+
+
+
+//d3.json("poster_count_big.json", function(error, json) {
+//  alert('here1')
+  //if (error) return console.warn("error");
+
+//  alert('here2')
+//  JSON.parse('{"3090": ["59205", "72521"], ... "W415": ["22526"]}')
+//  alert('here3')
+//  alert(json);
+//});
+
+
 
 
 var names =['Anthony Zador', "Daniel O'Connor", 'Christian Tetzlaff', 'Byron Yu', 'Mark Churchland', 'Maria Vicente', 'Taro Toyoizumi', 'Mattia Rigotti', 'Krishna Shenoy', 'Alex Kwan', 'Sherika Sylvester', 'Carina Curto', 'Christopher Moore', 'Yushi  Wang', 'Liam Paninski', 'Isaac Carruthers', 'Tyler Lee', 'Ana Raquel Martins', 'Emad Eskandar', 'Greg Horwitz', 'Mark Goldman', 'Daniel Huber', 'Matteo Carandini', 'Zachary Mainen', 'Nikos K. Logothetis', 'DJ Strouse', 'Timothy Gentner', 'Marc Timme', 'Maria Geffen', 'Mikko Juusola', 'Michael DeWeese', 'Tirin Moore', 'Bartlett Mel', 'Karel Svoboda', 'Loren Frank', 'Florentin W\xcb\x86rg\xcb\x86tter', 'Eero Simoncelli', 'Caleb Kemere', 'Tim P. Vogels', 'Brent Doiron', 'Ziv Rotman', 'Chris Rozell', 'Antonello Bonci', 'Aldo Faisal', 'Christoph Kolodziejski', 'Dora Angelaki', 'Rollin Hu', 'Gasper Tkacik', 'Wei Ji Ma', 'David Sussillo', 'Tao Hu', 'Joseph Madsen', 'Nathaniel Daw', 'Maneesh Sahani', 'Eyal Seidemann', 'Matthias Bethge', 'Markus Meister', 'Vitaly Klyachko', 'Alireza Soltani', 'Aaron Suminski', 'Arjun Bharioke', 'Tony Movshon', 'Jianzhong  Jin', 'Robert Rosenbaum', 'Ruben Coen-Cagli', 'Ronald  Van Den Berg', 'Dinu Albeanu', 'Peggy Series', 'Ila Fiete', 'Andrew Fagg', 'Elad Schneidman', 'Alexandre Pouget', 'Julijana Gjorgjieva', 'Michael Buice', 'Joshua Siegle', 'Mate Lengyel', 'A. Moses Lee', 'Stefano Fusi', 'Jakob Macke', "Randall O'Reilly", 'William Newsome', 'Xiao-Jing Wang', 'Odelia Schwartz', 'Baktash Babadi', 'Jose-Manuel Alonso', 'Kayvon Daie', 'Jan Drugowitsch', 'Martin Stemmler', 'James DiCarlo', 'Kresimir Josic', 'Peter Latham', 'Jose Carmena', 'Il Memming Park', 'John Reynolds', 'Raoul-Martin Memmesheimer', 'Daniel Butts', 'Petr Znamenskiy', 'Peter  Dayan', 'Francis Willett', 'Bruno Olshausen', 'Ruben Moreno', 'Alla Karpova', 'Dougal Tervo', 'Misha Tsodyks', 'Paul Schrater', 'Seth Madlon-Kay', 'Andreas V.M. Herz', 'Christoph Kirst', 'Victor  Chan', 'Ziv Williams', 'Eric Shea-Brown', 'Qi Wang', 'Matthew Kaufman', 'Yang Dan', 'Linda Wilbrecht', 'Wulfram Gerstner', 'Jonathan Pillow', 'Melanie Lee', 'Andreas Tolias', 'Vladimir Itskov', 'Fritz Sommer', 'Emre Aksay', 'Christopher Hillar', 'Vivienne Ming', 'Michael Berry', 'Wilson Geisler', 'Anirvan Nandy', 'Nicholas Hatsopoulos', 'Omri Barak', 'Garrett Stanley', 'Paul Nuyujukian', 'Larry Abbott', 'Jeremy Freeman', 'Felix Wichmann', 'Yuzhi Chen', 'Andre Mendonca', 'Robert Froemke', 'Corey Ziemba', 'Henning Sprekeler', 'Paul Bays', 'Ronen Segev', 'Ryan Natan', 'Michael J Frank', 'Emery Brown', 'Stephen Ryu', 'Edward Callaway', 'Jude Mitchell', 'Ran Rubin', 'Adam Kohn', 'Haim Sompolinsky', 'Sydney Cash', 'Michael Platt', 'Kenneth Harris', 'Jeffrey Beck', 'Dmitri Chklovskii', 'Tatyana Sharpee'];
 var count = [3, 2, 2, 2, 2, 2, 2, 2, 6, 2, 2, 4, 2, 2, 4, 2, 2, 2, 2, 2, 4, 2, 4, 4, 2, 2, 2, 3, 2, 2, 2, 3, 3, 2, 2, 2, 7, 2, 3, 2, 2, 2, 2, 4, 2, 2, 2, 3, 4, 2, 2, 2, 4, 3, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 2, 4, 2, 3, 5, 2, 5, 6, 2, 2, 2, 3, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 6, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 4, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 5, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 5, 2, 3, 2, 2, 6, 2, 2, 2, 4, 6, 5];
 
+
+var data=[names, count];
+//alert(data)
 
 
 //var data=[
@@ -75,7 +107,7 @@ var count = [3, 2, 2, 2, 2, 2, 2, 2, 6, 2, 2, 4, 2, 2, 4, 2, 2, 2, 2, 2, 4, 2, 4
 //[130,30,200,40,230,150,80,65,20,10,100]
 //];  
 
-var data=[names, count];
+
 
 
 //root = JSON.parse( "poster_count.json" );
