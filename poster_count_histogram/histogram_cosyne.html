@@ -3,30 +3,36 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>D3: Smoother highlight transitions</title>
+		<title>D3: Pope of Cosyne</title>
 		<script type="text/javascript" src="../d3/d3.v3.js"></script>
 		<script type="text/javascript" src="../json.js"></script>
 		<style type="text/css">
 			/* No style rules here yet */	
+			button.selected {
+				background-color: gray
+			}
+			button.unselected {
+				background-color: white
+			}
 		</style>
 	</head>
 	<body>
-		<p><button id="2014">2014</button>
-			<button id="2013">2013</button>
-			<button id="2012">2012</button>
-			<button id="2011">2011</button>
+		<p><button id="2014" class="selected">2014</button>
+			<button id="2013" class="unselected">2013</button>
+			<button id="2012" class="unselected">2012</button>
+			<button id="2011" class="unselected">2011</button>
 			</p>
 
 
 		<script type="text/javascript">
 
 			//Width and height
-			var w = 600;
-			var h = 1000;
+			var w = 1000;
+			
 			
 
-			var n_crop = 30;
-
+			var n_crop = 50;
+			var h = n_crop*30;
 
 var authors_2011 =['Liam Paninski', 'Paul Schrater', 'Krishna V. Shenoy', 'Brent Doiron', 'Maneesh Sahani', 'Wulfram Gerstner', 'Eero P. Simoncelli', 'Jonathan W Pillow', 'Jason Prentice', 'Mikko Juusola', 'Vijay Balasubramanian', 'Constantin A Rothkopf', 'Chris Eliasmith', 'Mate Lengyel', "Kre\\v{s}imir Josi\\'{c}", 'Eric Shea-Brown', 'Matthew Kaufman', 'Davide Zoccolan', 'Garrett Kenyon', 'Alexandre Pouget', 'Peter Latham', 'Jose Carmena', 'Jochen Triesch', 'Kenneth D. Miller', 'Stephen I. Ryu', 'Noah Cowan', 'Mark Churchland', 'Eric Fortune', 'Wei Ji Ma', 'Ashok Litwin-Kumar', 'Tomoki Fukai', 'Adam Kohn', 'Daniel Coca', 'Emery N. Brown', 'Yashar Ahmadian', 'Jonathan Victor', 'Gasper Tkacik', 'Miriam Meister', 'Byron M. Yu', 'Jozsef Fiser', 'Alexander Huk', 'Gil Costa', 'Matthew Rushworth', 'Mark Goldman', 'Kolia Sadeghi', 'Luis Bettencourt', 'Bartlett Mel', 'John P. Cunningham', 'Martin Giese', 'Keith Mathieson', 'Christopher Moore', 'Ross S. Williamson', 'Deborah Gunning', 'Sarah Woolley', 'Terrence Sejnowski', 'Satohiro Tajima', 'Daniel A. Butts', 'Andrea Barreiro', 'Alan Litke', 'John Cunningham', 'Shaul Druckmann', 'Henning Sprekeler', 'Carlos D Brody', 'Andreas S. Tolias', 'Jorg Lucke', 'Gianluca Baldassarre', 'Maria Vicente', 'Alexander Sher', 'Tomaso Poggio', 'Yoshikazu Isomura', 'Jakob Macke', 'Ila Fiete', 'Elad Schneidman', 'Ronen Segev', 'Roger Hardie', 'Karunesh Ganguly', 'Bruno Olshausen', 'Ziv Williams', 'Wilson Geisler', 'Konstantinos Meletis', 'Demian Battaglia', 'Jeffrey Beck', 'Claudia Clopath', 'Mark Laubach', 'Edward Callaway', 'Angela Yu', 'Israel Nelken', 'Ronald van den Berg', 'Anthony Zador', 'Greg Field', 'Stephen Lisberger', 'Stefano Fusi', 'Masato Okada', 'Richard Turner', 'George Ryan', 'S.A. Billings', 'Thomas Trappenberg', 'Bingni W Brunton', 'Jonathon Shlens', 'Alireza Alemi-Neissi'];
 var counts_2011 =[9, 8, 6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
@@ -45,19 +51,20 @@ var counts_2012 =[7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
 
 var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 
-			var authors = authors_2012;
-			var counts = counts_2012;
+			var authors = authors_2014;
+			var counts = counts_2014;
 
 		authors = authors.slice(0,n_crop);
 		counts = counts.slice(0,n_crop);
 
+		var max_count = 9;
 
 			var yScale = d3.scale.ordinal()
 							.domain(d3.range(counts.length))
 							.rangeRoundBands([0, h], 0.05);
 
 			var xScale = d3.scale.linear()
-							.domain([0, d3.max(counts)])
+							.domain([0, max_count]) //d3.max(counts)
 							.range([0, w]);
 
 
@@ -70,7 +77,9 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 
 			//Create bars
 
-			var rgb_scale = 30;
+			var rgb_scale = 25;
+
+
 			svg.selectAll("rect")
 			   .data(counts)
 			   .enter()
@@ -143,8 +152,13 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 
 			d3.selectAll("button")
 				.on("click", function() {
+					d3.selectAll("button")
+						.attr("class", "unselected");
+					this.className="selected";
 
-					year = this.getAttribute("id")
+
+
+					year = this.getAttribute("id");
 					if (year == 2011){
 					 var nauthors = authors_2011;
 					 var ncounts = counts_2011;
@@ -161,10 +175,8 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 					 var nauthors = authors_2014;
 					 var ncounts = counts_2014;
 					};
+				
 					
-					
-
-
 		nauthors = nauthors.slice(0,n_crop);
 		ncounts = ncounts.slice(0,n_crop);
 
@@ -172,10 +184,6 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 			var yScale = d3.scale.ordinal()
 							.domain(d3.range(ncounts.length))
 							.rangeRoundBands([0, h], 0.05);
-
-			var xScale = d3.scale.linear()
-							.domain([0, d3.max(ncounts)])
-							.range([0, w]);
 
 
 			//Create bars
