@@ -17,22 +17,31 @@
 		</style>
 	</head>
 	<body>
-		<p><button id="2014" class="selected">2014</button>
-			<button id="2013" class="unselected">2013</button>
-			<button id="2012" class="unselected">2012</button>
-			<button id="2011" class="unselected">2011</button>
+		<p><button id="2014" class="selected year">2014</button>
+			<button id="2013" class="unselected year">2013</button>
+			<button id="2012" class="unselected year">2012</button>
+			<button id="2011" class="unselected year">2011</button>
 			</p>
 
 
-		<script type="text/javascript">
 
-			//Width and height
+
+
+
+<form onsubmit="return false" oninput="level.value = id1.valueAsNumber" id="myrange">
+<label for "id1">Rescale graph</label>  <input type="range" min="300" max="1000" value="50" step="1" id="id1"  class="rescale" ><output for="id1" name="level">35</output>
+</form>
+
+<button id="remove" class="remove" >Remove</button>		
+
+<script type="text/javascript">
+
 			var w = 1000;
-			
-			
-
 			var n_crop = 50;
-			var h = n_crop*30;
+			var h = n_crop*10;
+			d3.selectAll("input").attr("value",h);
+	
+			
 
 var authors_2011 =['Liam Paninski', 'Paul Schrater', 'Krishna V. Shenoy', 'Brent Doiron', 'Maneesh Sahani', 'Wulfram Gerstner', 'Eero P. Simoncelli', 'Jonathan W Pillow', 'Jason Prentice', 'Mikko Juusola', 'Vijay Balasubramanian', 'Constantin A Rothkopf', 'Chris Eliasmith', 'Mate Lengyel', "Kre\\v{s}imir Josi\\'{c}", 'Eric Shea-Brown', 'Matthew Kaufman', 'Davide Zoccolan', 'Garrett Kenyon', 'Alexandre Pouget', 'Peter Latham', 'Jose Carmena', 'Jochen Triesch', 'Kenneth D. Miller', 'Stephen I. Ryu', 'Noah Cowan', 'Mark Churchland', 'Eric Fortune', 'Wei Ji Ma', 'Ashok Litwin-Kumar', 'Tomoki Fukai', 'Adam Kohn', 'Daniel Coca', 'Emery N. Brown', 'Yashar Ahmadian', 'Jonathan Victor', 'Gasper Tkacik', 'Miriam Meister', 'Byron M. Yu', 'Jozsef Fiser', 'Alexander Huk', 'Gil Costa', 'Matthew Rushworth', 'Mark Goldman', 'Kolia Sadeghi', 'Luis Bettencourt', 'Bartlett Mel', 'John P. Cunningham', 'Martin Giese', 'Keith Mathieson', 'Christopher Moore', 'Ross S. Williamson', 'Deborah Gunning', 'Sarah Woolley', 'Terrence Sejnowski', 'Satohiro Tajima', 'Daniel A. Butts', 'Andrea Barreiro', 'Alan Litke', 'John Cunningham', 'Shaul Druckmann', 'Henning Sprekeler', 'Carlos D Brody', 'Andreas S. Tolias', 'Jorg Lucke', 'Gianluca Baldassarre', 'Maria Vicente', 'Alexander Sher', 'Tomaso Poggio', 'Yoshikazu Isomura', 'Jakob Macke', 'Ila Fiete', 'Elad Schneidman', 'Ronen Segev', 'Roger Hardie', 'Karunesh Ganguly', 'Bruno Olshausen', 'Ziv Williams', 'Wilson Geisler', 'Konstantinos Meletis', 'Demian Battaglia', 'Jeffrey Beck', 'Claudia Clopath', 'Mark Laubach', 'Edward Callaway', 'Angela Yu', 'Israel Nelken', 'Ronald van den Berg', 'Anthony Zador', 'Greg Field', 'Stephen Lisberger', 'Stefano Fusi', 'Masato Okada', 'Richard Turner', 'George Ryan', 'S.A. Billings', 'Thomas Trappenberg', 'Bingni W Brunton', 'Jonathon Shlens', 'Alireza Alemi-Neissi'];
 var counts_2011 =[9, 8, 6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
@@ -54,13 +63,23 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 			var authors = authors_2014;
 			var counts = counts_2014;
 
-		authors = authors.slice(0,n_crop);
-		counts = counts.slice(0,n_crop);
+
+
+
+		var n_display = 30
+		var n_tot = 30
+
+		authors = authors.slice(0,n_tot);
+		counts = counts.slice(0,n_tot);
+
+		var counts_display = counts;
+		var authors_display = authors;
+
 
 		var max_count = 9;
 
 			var yScale = d3.scale.ordinal()
-							.domain(d3.range(counts.length))
+							.domain(d3.range(n_tot))
 							.rangeRoundBands([0, h], 0.05);
 
 			var xScale = d3.scale.linear()
@@ -148,48 +167,66 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 			   .attr("font-size", "12px")
 			   .attr("fill", "white");
 
-			
+			d3.selectAll("input.rescale").on("change", change);
+				function change() {
+				console.log("Change");
+				console.log(this.value);
+					h = this.value;
+					updateDataSet();
+				}
 
-			d3.selectAll("button")
+
+			d3.selectAll("button.year")
 				.on("click", function() {
 					d3.selectAll("button")
 						.attr("class", "unselected");
 					this.className="selected";
+					year = this.getAttribute("id");					
+					updateDataSet();
+				});
+
+
+			d3.selectAll("button.remove")
+				.on("click", function() {removebar();} );
 
 
 
-					year = this.getAttribute("id");
+
+		function updateDataSet() {
+
+			year = parseInt(d3.selectAll("button.selected")[0][0].id);
 					if (year == 2011){
-					 var nauthors = authors_2011;
-					 var ncounts = counts_2011;
+					 var authors = authors_2011;
+					 var counts = counts_2011;
 					};
 					if (year == 2012){
-					 var nauthors = authors_2012;
-					 var ncounts = counts_2012;
+					 var authors = authors_2012;
+					 var counts = counts_2012;
 					};
 					if (year == 2013){
-					 var nauthors = authors_2013;
-					 var ncounts = counts_2013;
+					 var authors = authors_2013;
+					 var counts = counts_2013;
 					};					
 					if (year == 2014){
-					 var nauthors = authors_2014;
-					 var ncounts = counts_2014;
+					 var authors = authors_2014;
+					 var counts = counts_2014;
 					};
 				
-					
-		nauthors = nauthors.slice(0,n_crop);
-		ncounts = ncounts.slice(0,n_crop);
+
+			authors_display = authors.slice(0,n_tot);
+			counts_display = counts.slice(0,n_tot);
 
 
 			var yScale = d3.scale.ordinal()
-							.domain(d3.range(ncounts.length))
+							.domain(d3.range(n_tot))
 							.rangeRoundBands([0, h], 0.05);
 
 
 			//Create bars
+			svg.attr("height", h);
 
 			svg.selectAll("rect")
-			   .data(ncounts)
+			   .data(counts_display)
 			   .transition()  
 			   .attr("y", function(d, i) {
 			   		return yScale(i);
@@ -206,7 +243,7 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 
 			//Create labels
 			svg.selectAll("text.counts")
-			   .data(ncounts)
+			   .data(counts_display)
   			   .transition()  
 			   .text(function(d) {
 			   		return d;
@@ -219,7 +256,7 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 			   }) ;
 
 			svg.selectAll("text.authors")
-			   .data(nauthors)
+			   .data(authors_display)
   			   .transition()  
 			   .text(function(d) {
 			   		return d;
@@ -231,7 +268,23 @@ var counts_2013 = [7, 7, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 			   		return 20;
 			   });
 
-		});
+			}
+
+			// remove a bar
+		function removebar() {
+				counts_display.pop();
+				authors_display.pop();
+			var bars = svg.selectAll("rect")
+   				 .data(counts_display);
+   		 
+   		    bars.exit()
+    	 	.transition()
+   			 .duration(5)
+   			 .attr("x", 0)
+    	     .remove();
+		}
+
+
 
 
 		</script>
