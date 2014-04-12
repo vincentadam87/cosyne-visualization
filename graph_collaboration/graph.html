@@ -74,7 +74,7 @@ var svg = d3.select("body").append("svg")
 var a =d3.select("#id1").attr("value");
 var b =d3.select("#id2").attr("value");
 
-d3.json("../data/cosyne12_small.json", function(error, graph) {
+d3.json("../data/graph_authors.json", function(error, graph) {
   force
       .nodes(graph.nodes)
       .links(graph.links)

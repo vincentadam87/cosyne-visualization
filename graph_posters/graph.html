@@ -52,8 +52,8 @@ d3.json("../data/graph_authors_posters.json", function(error, graph) {
     .enter().append("circle")
       .attr("class", "node")
       .attr("r", function(d) { return 3+d.count; })
-      .style("fill", function(d) { if d.type=="poster"{return 1; }; 
-        if d.type=="author"{return 2;};)
+      .style("fill", function(d) { if (d.type=="poster"){return 1; } 
+        if (d.type=="author"){return 2;}})
       .call(force.drag);
 
   node.append("title")
