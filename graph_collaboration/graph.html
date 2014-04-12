@@ -15,14 +15,48 @@
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+Node size is a*#poster + b
+<form 
+  onsubmit="return false"
+  oninput="size.value = id1.valueAsNumber"
+  id="myrange">
+<label for "id1">a</label>  
+<input 
+  type="range" 
+  min="0" 
+  max="5" 
+  value="1" 
+  step="0.1" 
+  id="id1"  
+  class="rescale">
+  <output for="id1" name="size"></output>
+  </form>
+
+  <form 
+  onsubmit="return false"
+  oninput="size.value = id2.valueAsNumber"
+  id="myrange">
+  <label for "id2">b</label>  
+<input 
+  type="range" 
+  min="0" 
+  max="5" 
+  value="1" 
+  step="0.1" 
+  id="id2"  
+  class="rescale">
+  <output for="id2" name="size"></output>
+  </form>
+
 <script>
 
 var global_scale = 3
 var global_force_scale = 1/5
 
 
-var width = 960*global_scale,
-    height = 500*global_scale;
+var width = 960,
+    height = 500;
 
 var color = d3.scale.category20();
 
@@ -34,6 +68,11 @@ var force = d3.layout.force()
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
+
+
+
+var a =d3.select("#id1").attr("value");
+var b =d3.select("#id2").attr("value");
 
 d3.json("../data/cosyne12_small.json", function(error, graph) {
   force
@@ -47,11 +86,12 @@ d3.json("../data/cosyne12_small.json", function(error, graph) {
       .attr("class", "link")
       .style("stroke-width", function(d) { return 2*Math.sqrt(d.value); });
 
+
   var node = svg.selectAll(".node")
       .data(graph.nodes)
     .enter().append("circle")
       .attr("class", "node")
-      .attr("r", function(d) { return d.count; })
+      .attr("r", function(d) { return +(a) + (+(b)*d.count); })
       .style("fill", function(d) { return color(d.group); })
       .call(force.drag);
 
@@ -68,5 +108,25 @@ d3.json("../data/cosyne12_small.json", function(error, graph) {
         .attr("cy", function(d) { return d.y; });
   });
 });
+
+
+
+d3.select("#id1").on("change", change1);
+        function change1() {
+        console.log("Change");
+        console.log(this.value);
+        a = this.value;
+        svg.selectAll(".node")
+        .attr("r", function(d) { return +(a) + (+(b)*d.count) ; })
+        }
+
+d3.select("#id2").on("change", change2);
+        function change2() {
+        console.log("Change");
+        console.log(this.value);
+        b = this.value;
+        svg.selectAll(".node")
+        .attr("r", function(d) { return +(a) + (+(b)*d.count) ; })
+        }
 
 </script>
