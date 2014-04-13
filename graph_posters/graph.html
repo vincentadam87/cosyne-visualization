@@ -24,6 +24,10 @@ var global_force_scale = 1/5
 var width = 960*global_scale,
     height = 500*global_scale;
 
+var r_poster = 5
+var r_author = 3
+
+
 var color = d3.scale.category20();
 
 var force = d3.layout.force()
@@ -51,9 +55,11 @@ d3.json("../data/graph_authors_posters.json", function(error, graph) {
       .data(graph.nodes)
     .enter().append("circle")
       .attr("class", "node")
-      .attr("r", function(d) { return 3+d.count; })
-      .style("fill", function(d) { if (d.type=="poster"){return 1; } 
-        if (d.type=="author"){return 2;}})
+      .attr("r", function(d) {console.log(d.type=='poster');
+        if (d.type=='poster'){return r_poster; } 
+        if (d.type=='author'){return r_author+d.count;}})
+      .style("fill", function(d) {console.log(d.type=='poster');if (d.type=='poster'){return "blue"; } 
+        if (d.type=='author'){return "red";}})
       .call(force.drag);
 
   node.append("title")
